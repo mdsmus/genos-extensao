@@ -1,0 +1,49 @@
+* estudantes computação
+
+Gostaria de convidá-los para o "Curso introdutório de Csound" que será
+ministrado na Escola de Música da UFBA.
+
+Esse curso será uma atividade de extensão e os alunos terão
+certificado.
+
+Período do curso:
+        7 de abril a 30 de junho
+
+Dia e horário das aulas:
+        todas as quintas, das 17 as 19 horas
+
+Período de inscrição:
+        8 a 31 de março
+
+O curso é gratuito e as vagas são limitadas. Por favor só se inscreva
+se estiver *realmente* interessado.
+
+Para inscrições ou informações escreva para kroeger@pedrokroeger.net
+
+Para se inscrever envie um email com se nome, telefone, email, curso,
+e um pequeno parágrafo falando sobre seu interesse no curso.
+
+O Csound pode ser considerado atualmente como um dos melhores e mais
+poderosos programas para síntese sonora, ele é excelente para o design
+de instrumentos, é multi-plataforma, tem o código fonte aberto, e seu
+formato não é proprietário.  Ele é uma espécie de compilador para
+síntese (também chamado de "compilador acústico"). Ele faz, de certo
+modo, em música o que o pov-ray faz com gráficos. O Csound é, de fato,
+uma linguagem de programação desenhada e otimizada para a renderização
+de som e o processamento de sinais. Veja http://www.csounds.com/whatis
+pra mais informações sobre o Csound.
+
+O curso será ministrado para alunos da Escola de Música, mas
+estudantes de Ciência da Computação com interesse em áudio são
+excelentes candidatos! O curso vai ajudar não apenas no entendimento
+do programa e elementos de síntese sonora, como pode sugerir idéias
+para projetos em ciência da computação envolvendo áudio :-)
+
+Abraços,
+
+Pedro Kröger
+
+
+* estudantes emus
+
+
