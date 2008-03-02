@@ -1,0 +1,219 @@
+\documentclass[12pt,brazil]{article}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{url}
+\usepackage[a4paper,top=2.5cm,left=3cm,right=3cm,bottom=2.5cm]{geometry}
+\usepackage[perpage,symbol*,para]{footmisc}
+\usepackage{times}
+\usepackage{setspace}
+
+\newcommand{\sigla}[1]{\textsc{#1}}
+\newcommand{\eng}[1]{\textit{#1}}
+\newcommand{\prog}[1]{\textsf{#1}}
+\setlength{\parindent}{0cm}
+
+\begin{document}
+
+\title{Curso introdutório de Linux}
+\author{Marcos da Silva Sampaio e Givaldo de Cidra Oliveira}
+
+\maketitle
+
+\begin{abstract}
+  O Linux é um sistema operacional seguro, estável, eficiente,
+  versátil, bem documentado e bastante utilizado em todo o mundo. Sua
+  construção impede o ataque de vírus e travamento do sistema. Ele é
+  um software livre e tem a maioria de suas distribuições gratuitas,
+  sendo utilizado tanto em grandes servidores quanto em computadores
+  pessoais (de última geração e obsoletos). O Linux é o sistema
+  operacional utilizado pelo grupo de pesquisa Genos e seus
+  participantes para todas as atividades de pesquisa, ensino e
+  extensão. Apesar de suas qualidades e do grande número de
+  aplicativos musicais que rodam em Linux, não há disciplina oferecida
+  pela Escola de Música da UFBA para o treinamento neste sistema. O
+  objetivo principal do curso é fornecer aos alunos conhecimento
+  básico sobre o sistema, como manipulação de arquivos, ferramentas de
+  escritório, acesso à internet, instalação de programas e
+  dispositivos e alguns comandos de terminal. O curso terá 5 aulas de
+  2 horas e será oferecido em formato intensivo durante uma semana. Os
+  ministrantes do curso têm larga experiência no uso de computadores e
+  há dois anos utilizam Linux para todas as suas necessidades
+  computacionais. O uso que fazem do sistema se dá tanto no nível de
+  usuário quanto de colaborador, este último através do grupo de
+  pesquisa Genos.
+\end{abstract}
+
+\thispagestyle{empty}
+
+\section{Introdução}
+
+O Linux é um sistema operacional seguro, estável, eficiente, versátil,
+bem documentado e bastante utilizado em todo o mundo, principalmente
+em universidades e grandes empresas. Além disso é software livre, com
+licença para livre distribuição e modificação. A maioria das suas
+distribuições são gratuitas.
+
+A segurança do sistema é dada pela estrutura dos seus arquivos, que
+impede por exemplo que um vírus o destrua. A estabilidade é verificada
+pelo funcionamento ininterrupto, isto é, o sistema nunca trava. É
+possível passar meses com o computador ligado (por exemplo, servidores
+de internet). A política de desenvolvimento do Linux colabora com essa
+estabilidade, pois tem como prioridade a resolução de bugs do sistema.
+
+Sua eficiência é dada pela objetividade dos seus programas, que são
+desenvolvidos para tarefas muito específicas. Dessa forma o Linux
+mantém um programa eficiente para cada necessidade.
+
+O versatilidade se mostra pela diversidade de necessidades
+atendidas. Há distribuições para grandes redes, computadores pessoais,
+palmtop, máquinas de última geração, máquinas obsoletas (ideais para
+instituições com poucos recursos) e outras necessidades específicas.
+
+O Linux é desenvolvido desde 1991 e foi feito a partir do sistema de
+grande porte Unix (1969). Ele é desenvolvido por uma grande comunidade
+de pesquisadores e usuários do mundo inteiro. Essas pessoas colaboram
+tanto escrevendo o código do programa como traduzindo, reportando bugs
+e escrevendo documentação. Por conta do código aberto, da ferramenta
+de controle de versão e da documentação da comunicação em listas de
+discussão, é possível conhecer o passo-a-passo do desenvolvimento
+desde seu início até hoje.
+
+\section{Sobre os ministrantes}
+
+Marcos da Silva Sampaio (Marcos di Silva) é aluno do Programa de
+Pós-Graduação em Música da UFBA e professor substituto da Escola de
+Música da mesma instituição. Trabalha com computadores há mais de
+vinte anos e há dois anos usa o Linux para todas as suas necessidades
+computacionais. Dá suporte informal a estudantes e professores da
+Escola de Música da UFBA.
+
+Givaldo de Cidra Oliveira é aluno da Graduação em Composição e
+Regência da UFBA e trabalha com informática há mais de dezesseis anos dos
+quais cinco com Linux, utilizando-o para todas as suas necessidades
+computacionais. Presta assessoria em informática a estudantes e
+professores da graduação da Escola de Música da UFBA.
+
+Ambos são membros do grupo de pesquisa Genos.
+
+\section{Justificativa}
+
+A demanda por aplicativos musicais para computador é cada vez maior
+entre músicos. Muitos desses aplicativos têm sido desenvolvidos como
+software livre para o sistema operacional Linux, tornando-o uma
+alternativa de baixo custo para uso em estúdio (paga-se apenas o preço
+do hardware).
+
+Apesar das qualidades do Linux e da demanda por aplicativos musicais
+para computador, em especial para Linux, a Escola de Música da UFBA
+não oferece uma disciplina específica para o seu ensino. Por conta
+disso alguns alunos da graduação e pós-graduação têm requisitado um
+curso específico de Linux, fazendo então necessária a criação de
+cursos de extensão para suprir essa necessidade.
+
+\section{Objetivos}
+
+Os objetivos do curso são:
+
+\begin{enumerate}
+\item Levar o aluno a executar tarefas básicas como manipular
+  arquivos, acessar internet, instalar programas e dispositivos,
+  utilizar ferramentas de escritório, comandos básicos de terminal no
+  Linux.
+\item Estimular o uso de ferramentas de software livre
+\item Servir como ponto de partida para quem tem interesse em aprender
+  a usar o Linux e não sabe por onde começar.
+\item Fornecer conceitos básicos sobre software livre, gerenciador de
+  janelas.
+\item Estimular o uso de ferramentas de software livre para suporte
+  (ex.: listas de discussão e \eng{wiki}).
+\end{enumerate}
+
+\section{Conteúdo programático} 
+
+O curso constará de 5 aulas cujo conteúdo programático será como
+segue:
+
+\begin{enumerate}
+\item Uso básico do sistema: manipulação de arquivos, gravação de CD e
+  DVD, uso da internet e email, ferramentas de escritório (Openoffice)
+  e mensagem instantânea.
+\item Instalação de programas através do gerenciador de pacotes
+  Synaptic. Instalação e uso de dispositivos: impressoras, pendrive,
+  cd-rom, etc. Uso de \eng{live-cd}.
+\item História do Linux, vantagens, software livre, documentação e
+  comunidade, distribuições, ambientes gráficos e customização.
+\item Instalação e uso do terminal (linha de comando).
+\end{enumerate} 
+
+\section{Metodologia}
+
+As aulas serão divididas em pequenos blocos, cada qual contendo um dos
+tópicos do conteúdo programático. Cada bloco constará da demonstração
+do conteúdo e de um exercício prático. Ao final de cada bloco as
+dúvidas serão esclarecidas e ao final da aula uma síntese dos
+conteúdos do dia será feita.
+
+As aulas serão ministradas no laboratório do Grupo de Pesquisa em
+Computação Musical Genos --- GenosLab, que terá seu equipamento
+utilizado em benefício do curso. Os alunos poderão copiar o cd de
+instalação da distribuição Ubuntu para uso em casa.
+
+Ao final de cada aula serão propostos exercícios e tarefas para
+aprofundar o conhecimento adquirido para serem feitos em casa.
+
+O Genos possui uma lista de discussão (ver
+\url{http://wiki.genos.mus.br}) que os alunos podem usar para tirar
+dúvidas e trocar sugestões com a comunidade inscrita na lista.
+
+\section{Referências bibliográficas para o curso}
+
+As principais fontes bibliográficas/eletrônicas serão os tutoriais e
+\eng{wiki} das distribuições Debian e Ubuntu disponíveis na internet.
+
+\section{Clientela}
+
+O curso se dirige aos alunos e ex-alunos da graduação e pós-graduação
+da Escola de Música da UFBA. Os alunos devem estar cursando ou ter
+concluído o curso superior.
+
+É preferível, mas não obrigatório, que os alunos tenham algum
+conhecimento básico de como utilizar um computador.
+
+\section{Duração}
+
+O curso terá 5 aulas de 2 horas e será dado em formato intensivo em
+uma semana.
+
+\section{Vagas}
+
+As turmas não devem ultrapassar a quantidade máxima de 9 alunos.
+
+\section{Material necessário}
+\label{sec:material}
+
+Para o curso serão necessários os seguintes equipamentos:
+
+Para a sala de aula:
+\begin{enumerate}
+\item 3 Computadores do estúdio GenosLab
+\item Datashow ou projetor similar
+\item 12 cadeiras
+\item Quadro branco e canetas (GenosLab)
+\end{enumerate}
+
+Para os alunos:
+
+\begin{enumerate}
+\item Acesso à internet
+\item Inscrição na lista Genos-users
+\end{enumerate}
+
+\renewcommand{\refname}{Bibliografia}
+
+\nocite{debiandoc,silva06:_foca_gnu_linux,wikipedia-linux-07,wikipedia-debian-07,wikipedia-ubuntu-07,gnomedoc,ubuntubrdoc,Campos,06:_softw_livre}
+
+\bibliographystyle{plain}
+\bibliography{linux}
+
+\end{document}

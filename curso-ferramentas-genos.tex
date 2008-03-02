@@ -1,0 +1,203 @@
+\documentclass[12pt,brazil]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage{babel}
+\usepackage{url}
+\usepackage[top=25mm,bottom=25mm,left=25mm,right=25mm]{geometry}
+
+\newcommand{\sigla}[1]{\textsc{#1}}
+\newcommand{\eng}[1]{\textit{#1}}
+\newcommand{\prog}[1]{\textsf{#1}}
+
+\begin{document}
+\selectlanguage{brazil}
+
+\title{Curso de capacitação em ferramentas computacionais}
+\author{Pedro Kröger}
+\maketitle
+
+\begin{abstract}
+  O desenvolvimento de grupos de pesquisa multi-disciplinares é
+  dificultado pela necessidade dos participantes terem que dominar
+  conhecimentos e ferramentas em mais de uma área. No caso específico
+  do Genos existem algumas ferramentas computacionais que são
+  utilizadas em pesquisas, aulas e cursos. Contudo, essas ferramentas
+  não são ensinadas em cursos de graduação em música e muitas vezes
+  nem em cursos de computação. Nesse curso serão abordadas as
+  ferramentas computacionais mais utilizadas no Genos: Emacs, Git, e
+  Gnu Make. Além disso serão abordadas técnicas de trabalho com
+  emuladores de terminal e sincronia de arquivos e acesso remoto com
+  ssh e unison.
+\end{abstract}
+
+\thispagestyle{empty}
+
+\section{Introdução}
+
+O desenvolvimento de grupos de pesquisa multi-disciplinares é
+dificultado pela necessidade dos participantes terem que dominar
+conhecimentos e ferramentas em mais de uma área. No caso específico do
+Genos existem algumas ferramentas computacionais que são utilizadas em
+pesquisas, aulas e cursos. Contudo, essas ferramentas não são
+ensinadas em cursos de graduação em música e muitas vezes nem em
+cursos de computação. Nesse curso serão abordadas as ferramentas
+computacionais mais utilizadas no Genos: Emacs, Git, e Gnu Make. Além
+disso serão abordadas técnicas de trabalho com emuladores de terminal
+e sincronia de arquivos e acesso remoto com ssh e unison.
+
+Emacs é um dos editores de texto mais poderosos que existem, podendo
+ser customizado para executar diferentes tarefas. Como ele tem uma
+curva de aprendizado grande alguns usuários acabam não percebendo seu
+potencial. Com ele é possível criar um ambiente integrado de
+desenvolvimento completo e produtivo para a programação com recursos
+de ``alto nível'' para processar textos como ``apague o parágrafo
+anterior'' ou ``á para o quarto parágrafo''; recursos para criar
+documentos com marcação como LeTeX e HTML; integração com ferramentas
+de controle de versão como RCS, CVS, subversion, e GNU Arch; recursos
+específicos para linguagens de programação como sintaxe colorida,
+execução e compilação automática, depuramento, navegador de classes,
+dentre outros; facilidades como auto-complementação, TAGS, e
+abreviações; recursos de documentação do Emacs, como ler paginas de
+manual do unix; ferramentas de internet como email, ftp, e
+navegadores; recursos avançados de procura e substituição; dentre
+outros.
+
+O Git é um programa para controle de versão distribuído desenvolvido
+por Linus Torvalds (o criador do Linux) e mantido por Junio C Hamano.
+Com ele é possível manter versões diferentes do mesmo documento
+permitindo acessar versões anteriores, criar ramos locais e remotos,
+controlar o histórico de mudanças, etc.
+
+O Gnu Make é um sistema de construção que pode ser usado para
+automatizar a construção (\textit{build}) de programas de computador,
+documento de textos escritos em \LaTeX, composições em LilyPond,
+dentre outros.
+
+\section{Sobre os ministrantes} 
+
+Dr. Pedro Kröger é professor adjunto da Escola de Música da UFBA e tem
+trabalhado com ferramentas computacionais há cerca de 12 anos com uso
+aplicado em composição, computação, pesquisa e ensino.
+
+Alexandre Passos é estudante de Ciência da Computação na UFBA, membro
+do Genos e bolsista do PIBIC.
+
+\section{Justificativa}
+
+Como não existem disciplinas na graduação que abordem ferramentas como
+Emacs, Git, e Gnu Make, faz-se necessário complementar o conhecimento
+dos alunos com interesse em música computacional com cursos de
+extensão.
+
+\section{Objetivos}
+
+Os objetivos do curso são:
+
+\begin{itemize}
+\item fornecer as principais técnicas e conceitos intermediários e
+  avançados de edição com emacs, desenvolvimento com o Git e
+  construção com Gnu Make
+\item apresentar técnicas diversas para sincronia de arquivos e acesso
+  remoto com ssh e unison
+\item apresentar técnicas avançadas de uso de emulador de terminal
+\end{itemize}
+
+\section{Conteúdo programático} 
+
+O curso constará de 15 aulas cujo conteúdo programático será como
+segue:
+
+\begin{itemize}
+\item Emacs
+  \begin{itemize}
+  \item customização do emacs (\textit{custom} e técnicas para o .emacs)
+  \item edição básica
+  \item buscar e substituir avançado
+  \item buffers, janelas, frames
+  \item dired
+  \item eshell
+  \item documentação com info
+  \item automação com macros
+  \item modo outline
+  \item programação em C e gdb
+  \item controle de versão (git, svn, cvs)
+  \item expandindo o emacs com elisp
+  \end{itemize} 
+\item Git
+  \begin{itemize}
+  \item trabalhando com branches
+  \item automação com hooks
+  \item criando sub-projetos
+  \item introdução aos \textit{internals}
+  \item explorando histórico
+  \item \textit{workflow} de desenvolvimento
+  \item criando repertórios remotos
+  \end{itemize}
+\item Gnu Make
+  \begin{itemize}
+  \item escrevendo regras
+  \item regras implícitas
+  \item comandos nas regras
+  \item uso de variáveis
+  \item uso de condicionais
+  \item funções para transformar texto
+  \end{itemize}
+\item Emulador de terminal
+\item Acesso remoto com ssh e unison
+\end{itemize}
+  
+\section{Metodologia}
+
+As aulas serão ministradas no laboratório de música eletroacústica do
+Grupo de Computação Musical Genos (GenosLab) e utilizarão de seu
+equipamento em beneficio do curso.
+
+As aulas terão uma parte expositiva e uma prática, onde os alunos
+praticarão os assuntos em computadores.
+
+Ao final de cada aula serão propostos exercícios e tarefas para
+aprofundar o conhecimento adquirido. As tarefas poderão ser feitas em
+casa, no caso dos alunos que possuem computador, ou no Laboratório de
+Informática da Graduação, onde serão instalados os programas
+necessários.
+
+\section{Referências bibliográficas para o curso}
+
+As principais fontes bibliográficas serão os manuais dos programas
+disponíveis na internet:
+
+\begin{enumerate}
+\item Manual do Git disponível em \url{http://www.kernel.org/pub/software/scm/git/docs/user-manual.html}
+\item Manual do Emacs disponível em \url{http://www.gnu.org/software/emacs/manual/}
+\item Manual do Gnu Make disponível em \url{http://www.gnu.org/software/make/manual/make.html}
+\end{enumerate}
+
+\section{Clientela}
+
+O curso se dirige aos membro do Genos, mas alunos de composição e de
+outras áreas (inclusive não musicais, como ciência da computação) são
+bem vindos. Os alunos devem estar cursando ou ter concluído o curso
+superior e possuir algum conhecimento básico dos programas abordados
+no curso.
+
+\section{Duração}
+
+O curso terá 15 aulas de 2 horas.
+ 
+\section{Vagas}
+As turmas não devem ultrapassar a quantidade máxima de 13 e mínima de 3
+alunos.
+
+\section{Material necessário}
+\label{sec:material}
+
+Para o curso serão necessários os seguintes equipamentos:
+
+Para a sala de aula:
+\begin{enumerate}
+\item Equipamento do estúdio GenosLab
+\item Datashow ou projetor similar
+\item 13 cadeiras
+\item Quadro branco e canetas (LIM)
+\end{enumerate}
+
+\end{document}

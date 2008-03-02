@@ -1,0 +1,226 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{url}
+\usepackage[a4paper,top=2.5cm,left=3cm,right=3cm,bottom=2.5cm]{geometry}
+\usepackage[perpage,symbol*,para]{footmisc}
+\usepackage{times}
+\usepackage{setspace}
+%\usepackage{mdschicago}
+
+\newcommand{\sigla}[1]{\textsc{#1}}
+\newcommand{\eng}[1]{\textit{#1}}
+\newcommand{\prog}[1]{\textsf{#1}}
+
+\setlength\parindent{0cm}
+
+\begin{document}
+
+\title{Curso introdutório de Lilypond}
+\author{Marcos da Silva Sampaio}
+\maketitle
+
+\begin{abstract}
+  O Lilypond é um excelente software livre desenvolvido para
+  tipografia automática de partituras musicais. Assim como softwares
+  proprietários como Sibelius e Finale, sua principal função é a
+  criação e edição de partituras. Ele oferece uma ótima qualidade de
+  impressão, é multiplataforma, expansível, livre e gratuito. O
+  objetivo principal do curso é oferecer aos alunos uma introdução a
+  este software tornando-os aptos a fazerem pequenas edições
+  musicais. Este curso, dirigido a alunos e ex-alunos da Escola de
+  Música da UFBA, oferece treinamento em um tipo de ferramenta muito
+  útil aos músicos, porém ainda não oferecido como disciplina por esta
+  instituição. O curso terá 5 aulas de 2 horas e será oferecido em
+  formato intensivo durante uma semana. Marcos da Silva Sampaio,
+  ministrante do curso, tem uma experiência de dois anos com o
+  Lilypond e de sete anos com programas de notação musical em geral
+  (Finale). O uso que faz do Lilypond se dá tanto na edição de suas
+  peças quanto na pesquisa em música realizada junto ao grupo de
+  pesquisa Genos.
+\end{abstract}
+
+\thispagestyle{empty}
+
+\section{Introdução}
+
+%% falar sobre o lilypond
+
+O Lilypond\footnote{Disponível em http://www.lilypond.org/} é um
+software livre desenvolvido para tipografia eletrônica e automática de
+partituras musicais. Assim como softwares proprietários como Sibelius
+e Finale, sua principal função é a criação e edição de partituras. A
+qualidade de impressão de partituras geradas eletronicamente tem sido,
+em geral, bastante diferente daquelas feitas à mão e publicadas por
+editoras como Bärenreiter e Henle. Estas versões eletrônicas trazem
+diversos erros de tipografia como superposição de símbolos,
+alinhamento irregular de compassos, comprimento irregular de hastes,
+entre outros \cite{Nienhuys2007}, o que exige do usuário muito tempo e
+atenção na revisão de cada trabalho. Com a automatização tipográfica
+do Lilypond é possível conseguir uma qualidade de impressão mais
+próxima à da música tipografada à mão sem que seja necessário tanto
+tempo e atenção do usuário.
+
+%  A formação de um tipógrafo
+% profissional pode levar até dez anos \cite{Nienhuys2007}, o que mostra
+% como esse trabalho é minucioso. Músicos em geral não têm tempo ou
+% interesse para se dedicarem a esta tarefa.
+
+
+% Ele automatiza as principais tarefas de uma boa tipografia musical,
+% como espaçamento entre notas, número de compassos em cada sistema,
+% número de sistemas em cada páginas, ligaduras de expressão, letras de
+% ensaio.
+
+%% inserir o ano
+
+\section{Sobre o ministrante} 
+
+Marcos da Silva Sampaio (Marcos di Silva) é aluno do Programa de
+Pós-Graduação em Música da UFBA e professor substituto da Escola de
+Música da mesma instituição. Trabalha com edição de música há sete
+anos e vem utilizando o Lilypond há dois anos. Sua relação com este
+software se dá tanto no campo da edição de suas composições
+\cite{Silva2004,Silva2004a,Silva2006,Silva2006a,Silva2006b,Silva2007}
+quanto na pesquisa, através do grupo Genos.
+
+\section{Justificativa}
+
+A demanda por partituras editadas eletronicamente é muito grande entre
+os músicos por conta da praticidade na sua criação, alteração e
+impressão. No entanto os softwares comerciais mais utilizados para
+este fim têm um custo muito elevado para estudantes. O Lilypond é uma
+ótima alternativa livre, pois além de ter um excelente resultado de
+impressão, tem um bom projeto de desenvolvimento (com listas de
+discussão e constante correção de bugs), é multiplataforma (funciona
+no Linux e no Windows) e é gratuito. 
+
+Apesar da grande demanda por ferramentas de software para edição de
+partituras a Escola de Música da UFBA não oferece uma disciplina
+específica para o seu ensino. Por conta disso alguns alunos têm
+requisitado um curso específico de Lilypond, fazendo então necessária
+a criação de cursos de extensão para suprir essa necessidade.
+
+\section{Objetivos}
+
+Os objetivos do curso são:
+
+\begin{enumerate}
+\item Tornar o usuário apto a fazer pequenas edições de peças vocais e
+  instrumentais para instrumento solo e pequenos conjuntos.
+\item Estimular o uso de ferramentas de software livre em música
+\item Servir como ponto de partida para quem tem interesse em
+  aprender a editar música com o Lilypond e não sabe por onde
+  começar
+\item Fornecer conceitos básicos sobre software livre, WYSIWYG e
+  tipografia musical
+\end{enumerate}
+
+\section{Conteúdo programático} 
+
+O curso constará de 5 aulas cujo conteúdo programático será como
+segue:
+
+\begin{enumerate}
+\item Introdução ao Lilypond e software livre:\\
+  Conceituação de Software livre, WYSIWYG\\
+  Estrutura de funcionamento\\
+  Apresentação dos  softwares de apoio\\
+  \eng{Modus operandi}\\
+  Introdução à sintaxe\\
+  Instalação, configuração, e execução\\
+  Entendimento do manual
+\item Expansão da introdução à sintaxe:\\
+  Elementos de altura\\
+  Elementos de tempo\\
+  Elementos de articulação\\
+  Elementos de dinâmica
+\item Edição de música para instrumento solo:\\
+  Preparação do arquivo .ly\\
+  Inserção de títulos\\
+  Criação de arquivos MIDI\\
+  Inserção de textos na partitura
+\item Edição de música para conjuntos e para piano\\
+  Organização dos pentagramas\\
+  Uso de variáveis\\
+  Uso de vozes em um mesmo pentagrama
+\item Edição de música vocal e apreciação de outras potencialidades do
+  Lilypond:\\
+  Diferentes sintaxes para \eng{lyrics}\\
+  Sintaxe para elisão e melisma\\
+  Música vocal para conjunto\\
+  Notação contemporânea\\
+  Hacks básicos (comando \texttt{$\backslash$override})\\
+  Lytex\\
+  Edição de arquivos SVG\\
+  Colaboração com o projeto (tradução, correção de bugs)
+\end{enumerate} 
+
+\section{Metodologia}
+
+Cada aula será dividida em três blocos principais. No primeiro será
+apresentada a forma como o Lilypond processa elementos musicais; no
+segundo serão implementados tais elementos; no último bloco serão
+feitos e corrigidos exercícios para fixação do conteúdo.
+
+As aulas serão ministradas no laboratório do grupo de pesquisa Genos
+--- GenosLab, que terá seu equipamento usado em benefício do curso. Um
+CD com todos os programas necessários (programas de livre distribuição
+como o próprio Lilypond), textos e tutoriais será entregue no início
+do curso a cada aluno inscrito.
+
+%% questao: e os alunos q não têm computador?
+Ao final de cada aula serão propostos exercícios e tarefas para
+aprofundar o conhecimento adquirido para serem feitos em casa.
+
+O Genos possui uma lista de discussão (ver
+\url{http://wiki.genos.mus.br}) que os alunos podem usar para tirar
+dúvidas e trocar sugestões com a comunidade inscrita na lista.
+
+\section{Clientela}
+
+O curso se dirige aos alunos e ex-alunos da graduação e pós-graduação
+em Música. Os alunos deverão possuir algum conhecimento básico de como
+utilizar um sistema operacional (Windows, MacOs, Linux) já que tais
+conhecimentos \textbf{não} serão vistos durante o curso.
+
+\section{Duração}
+
+O curso terá 5 aulas de 2 horas e será oferecido em formato intensivo
+em uma semana.
+ 
+\section{Vagas}
+
+A turma deverá ter uma quantidade máxima de 9 e mínima de 3 alunos
+para a prática nos computadores. Poderá ter ainda um total de 5
+ouvintes.
+
+\section{Recursos necessários}
+\label{sec:material}
+
+Para o curso serão necessários os seguintes equipamentos:
+
+Para a sala de aula:
+\begin{enumerate}
+\item 3 Computadores do estúdio GenosLab
+\item Datashow ou projetor similar
+\item 15 cadeiras
+\item Quadro branco e canetas (GenosLab)
+\end{enumerate}
+
+Para os alunos:
+
+\begin{enumerate}
+\item cópia do CD que acompanha a apostila, programas, exemplos e tutoriais
+\end{enumerate}
+
+\section{Referências bibliográficas para o curso}
+
+\nocite{Fernandes2007,Nienhuys2007}
+
+\renewcommand{\refname}{}
+\bibliographystyle{plain}
+\bibliography{bib-lily}
+
+\end{document}
