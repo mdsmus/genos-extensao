@@ -1,0 +1,158 @@
+\documentclass{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8x]{inputenc}
+
+
+\title{Curso introdutório de Pure data }
+
+\author{Cristiano Figueiró }
+
+\begin{document}
+
+\date{\today}
+
+\maketitle
+%%\tableofcontents
+\section{ Resumo}
+
+       O Pure data (Pd) pode ser considerado atualmente como um dos melhores e mais
+poderosos programas para composição de música interativa aliando as possibilidades
+computacionais de síntese sonora e processamento de áudio a um ambiente gráfico de
+programação voltado à interação sonora em tempo-real. Se trata de um programa gráfico
+com interface amigável, multi-plataforma, com o código fonte aberto, e com formato não
+proprietário. Ele é a terceira maior ramificação da família de programas que usam
+linguagem de programação modular, conhecida como Max (Max/MSP, jMax, etc.)
+originalmente desenvolvida por Miller Puckette (IRCAM). O núcleo do Pd é escrito e
+mantido por Miller Puckette e adicionado ao trabalho de muitos outros desenvolvedores.
+      
+
+ O objetivo é oferecer um curso introdutório desse programa onde além de
+demonstrar as possibilidades e limitações dessa ferramenta o participante adquira uma
+autonomia de estudo mais aprofundado do programa. Além disso, entender os conceitos e
+técnicas básicas de síntese sonora na prática do programa, entender as possibilidades e
+limitações da interação em tempo-real entre músico e computador, aprender os conceitos
+de programação em Pd e como usá-lo num projeto composicional.
+      
+
+ O curso terá 5 aulas de 2 horas em dias consecutivos (compreendendo uma semana
+letiva inteira). O curso se dirige aos alunos de composição musical, mas alunos de outras
+áreas (inclusive não musicais, como ciência da computação) são bem vindos. Os alunos
+devem estar cursando ou ter concluído o curso superior. O conhecimento básico de como
+utilizar um sistema operacional (Windows, MacOs, Linux) é requerido.
+      
+
+ Cristiano Figueiró tem trabalhado com o Pd e Max/MSP há quatro anos
+elaborando composições e artigos científicos sobre os paradigmas composicionais desses
+programas. Sua dissertação de mestrado está centrada no desenvolvimento de estratégias
+composicionais para a composição de peças eletroacústicas mistas envolvendo a
+interação entre músicos e computador em tempo real.
+
+\section{Introdução}
+
+
+ O áudio digital, além de um dos principais meios de comunicação atuais é um grande aliado na prática diária do músico lhe permitindo gravar, fazer arranjos, compor, analisar e extrair informações de gravações, tudo isso usando um computador pessoal.
+
+
+        A história do Áudio digital inicia com os experimentos de Max Matthews na Bell Laboratories em 1957 em Nova York, onde pela primeira vez se conseguiu sintetizar um som de 17 segundos através de um computador. O próximo passo, foi por um lado desenvolver as técnicas de síntese sonora e por outro lado desenvolver um mecanismo de amostragem do áudio que pudesse converter sem perdas o áudio analógico para áudio digital. Comercialmente o áudio digital começou a ser usado no fim dos anos 70 na indústria fonográfica. 
+
+
+        Atualmente o áudio digital é usado em todas as fases de uma produção musical comercial (pré-produção, gravação, mixagem, masterização e distribuição). Além de ser peça fundamental na telefonia (VoIp e celulares), televisão, internet, jogos, etc...	        
+
+
+
+        Nesse curso vão ser utilizados softwares livres rodando sobre uma plataforma de software livre (Linux), porém alunos que não usem Linux podem se inscrever pois poderão utilizar os conhecimentos em qualquer plataforma.
+       Os programas utilizados serão: Audacity (edição básica de áudio), Rosegarden (sequenciamento de áudio e MIDI) e Ardour (gravador multi-pistas).
+
+\section{Justificativa}
+\label{sec:justificativa}
+           Disciplinas de graduação envolvendo música computacional ou informática em
+música são cada vez mais comuns em países como Estados Unidos, Inglaterra, França,
+Canadá, dentre outros. Já que o curso de graduação da Escola de Música da UFBA ainda
+não oferece disciplinas relacionadas à música computacional faz-se necessário
+complementar o conhecimento dos alunos da área de composição com cursos de extensão.
+
+		
+\section {Objetivos}
+
+Os objetivos do curso são:\\
+- ensinar a linguagem de programação gráfica Pd e como usá-la;\\
+- fornecer os conceitos básicos de implementação das principais técnicas de síntese sonora
+e processamento e análise de áudio em Pd;\\
+- fornecer os conceitos fundamentais de interação e exemplos de projetos composicionais
+envolvendo interação entre músicos e computadores;\\
+
+
+\section {Conteúdo programático}
+
+O curso constará de 5 aulas cujo conteúdo programático será como segue:\\
+1. Introdução ao Pd:
+instalação, configuração e execução, estrutura da linguagem, operações matemáticas básicas
+e fluxo de dados;\\
+2. Protocolo MIDI, envelopes e automações, introdução ao áudio digital no Pd;\\
+3. Implementação de técnicas clássicas de síntese sonora: Síntese Aditiva,
+síntese por modulação: freqüência modulada (FM) e amplitude modulada (AM),
+sampleamento, filtros e delay;\\
+4. Encapsulamento e sub-patchs, desenvolvimento de projeto composicional;\\
+5. Introdução a FFT (Fast Fourier Transform) em Pd, análise de áudio de entrada em
+tempo-real (objeto fiddle~) e desenvolvimento de projeto composicional;
+
+
+\section {Metodologia}
+
+       Cada aula será dividida em três blocos principais; no primeiro serão apresentados
+aspectos teóricos e gerais do tópico em questão; no segundo bloco será visto como esses
+aspectos podem ser implementados no Pd; no último bloco serão corrigidos exercícios e
+dúvidas individuais esclarecidas.
+       As aulas serão ministradas no estúdio de música eletroacústica Genos e utilizarão de
+seu equipamento em benefício do curso. Um CD com todos os programas e exemplos
+necessários (Pd, alguns objetos externos, tutoriais e exemplos que serão abordados em aula)
+será distribuído no início do curso a cada aluno. Ao final de cada aula serão propostos
+exercícios e tarefas para aprofundar o conhecimento adquirido. As tarefas poderão ser feitas
+em casa, no caso dos alunos que possuem computador, ou no próprio Genos, em horários
+marcados        na      primeira     aula.    Um      fórum       na       internet     (em
+http://wiki.genos.mus.br/cursopd/forum) foi criado onde os alunos podem tirar dúvidas e
+trocar sugestões entre si.
+
+\section {Vagas}
+
+As turmas não devem ultrapassar a quantidade máxima de 13 e mínima de 3 alunos.
+
+\section {Referências Bibliográficas}A principal fonte bibliográfica será uma apostila elaborada especialmente para o curso.
+Contudo serão recomendadas a leitura de:\\
+1. Farnell, A. , Composition in puredata 1. Acessado em 25 de maio de 2007, em:\\
+http://www.obiwannabe.co.uk/html/music/musictuts/compose1/com
+position1/
+composition1.html.\\
+2. Puckette, M. A divide between ’compositional’ and ’performative’ aspects of pd. In
+Proceedings of the First Pd convention (2004).\\
+3. Roads, C. The Computer Music Tutorial. MIT Press, Massachussets (1996).\\
+4. Winkler, T. Composing Interactive Music - Techniques and ideas using Max. MIT Press,
+Massachussets (1993).
+
+\section { Clientela}
+O curso se dirige aos alunos de composição, mas alunos de outras áreas (inclusive não
+musicais, como ciência da computação) são bem vindos. Os alunos devem estar cursando
+ou ter concluído o curso superior. Os alunos deverão possuir algum conhecimento básico de
+como utilizar um sistema operacional (Windows, MacOs, Linux) já que tais conhecimentos
+não serão vistos durante o curso.
+\section {Duração} 
+O curso terá 5 aulas de 2 horas.
+
+
+\section {Vagas} 
+As turmas não devem ultrapassar a quantidade máxima de 13 e mínima de 3 alunos.
+\section {Material necessário}  
+Para o curso serão necessários os seguintes equipamentos:\\
+Para a sala de aula:\\
+1. Equipamento do estúdio Genos\\
+2. Datashow\\
+3. 13 cadeiras\\
+4. Quadro branco e canetas (Genos)\\
+Para os alunos:\\
+1. cópia e encadernação da apostila [50 - 100 páginas]\\
+2. cópia do CD que acompanha a apostila, programas e exemplos\\
+
+\end{document}
+
+%%%%C-c C-c para compilar e visualizar
+
