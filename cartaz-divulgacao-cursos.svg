@@ -11,11 +11,12 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.44.1"
+   inkscape:version="0.45.1"
    width="210mm"
    height="297mm"
-   sodipodi:docbase="/home/marcos/profissional/genos"
-   sodipodi:docname="genos-cursos-3.svg">
+   sodipodi:docbase="/home/marcos/profissional/genos/genos-repos/cursos-extensao-genos"
+   sodipodi:docname="cartaz-divulgacao-cursos.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -3909,26 +3910,6 @@
        y2="776.70563" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient3819"
-       id="linearGradient12220"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(6.328947,0,0,6.328947,2081.215,-1169.508)"
-       x1="-320.04376"
-       y1="219.625"
-       x2="-220.05788"
-       y2="299.40738" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2788"
-       id="linearGradient12228"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0,0.944474)"
-       x1="317.37906"
-       y1="80.143555"
-       x2="317.37906"
-       y2="1203.3481" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient7718"
        id="linearGradient12230"
        gradientUnits="userSpaceOnUse"
@@ -3987,10 +3968,30 @@
        y1="781.99963"
        x2="-161.21255"
        y2="776.70563" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3819"
+       id="linearGradient2923"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(6.328947,0,0,6.328947,2081.215,-1169.508)"
+       x1="-320.04376"
+       y1="219.625"
+       x2="-220.05788"
+       y2="299.40738" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2788"
+       id="linearGradient2931"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,0.944474)"
+       x1="317.37906"
+       y1="80.143555"
+       x2="317.37906"
+       y2="1203.3481" />
   </defs>
   <sodipodi:namedview
-     inkscape:window-height="764"
-     inkscape:window-width="1278"
+     inkscape:window-height="747"
+     inkscape:window-width="1280"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      guidetolerance="10.0"
@@ -4000,23 +4001,69 @@
      bordercolor="#666666"
      pagecolor="#ffffff"
      id="base"
-     inkscape:zoom="1.5024207"
-     inkscape:cx="372.04724"
-     inkscape:cy="93.724665"
+     inkscape:zoom="0.37560518"
+     inkscape:cx="439.19446"
+     inkscape:cy="613.7672"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:current-layer="svg2"
      showguides="true"
      inkscape:guide-bbox="true" />
   <g
-     id="g12260">
+     id="g5037"
+     transform="translate(0,65.8446)" />
+  <text
+     id="text797"
+     style="font-size:3.86523414px;font-family:Schoolbook"
+     x="-1326.826"
+     y="1486.7405">
+    <tspan
+       id="tspan799" />
+  </text>
+  <line
+     style="stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round"
+     id="line803"
+     y2="1509.2843"
+     x2="-1136.9138"
+     y1="1509.2843"
+     x1="-1311.7382" />
+  <line
+     style="stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round"
+     id="line807"
+     y2="1507.527"
+     x2="-1136.9138"
+     y1="1507.527"
+     x1="-1311.7382" />
+  <line
+     style="stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round"
+     id="line811"
+     y2="1505.7697"
+     x2="-1136.9138"
+     y1="1505.7697"
+     x1="-1311.7382" />
+  <line
+     style="stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round"
+     id="line815"
+     y2="1504.0123"
+     x2="-1136.9138"
+     y1="1504.0123"
+     x1="-1311.7382" />
+  <line
+     style="stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round"
+     id="line819"
+     y2="1502.2551"
+     x2="-1136.9138"
+     y1="1502.2551"
+     x1="-1311.7382" />
+  <g
+     id="g3595">
     <rect
        y="0.94447428"
        x="0"
        height="1055.1462"
        width="754.47131"
        id="use1895"
-       style="fill:url(#linearGradient12228);fill-opacity:1;stroke:#7e6186;stroke-width:0.77598423;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:url(#linearGradient2931);fill-opacity:1;stroke:#7e6186;stroke-width:0.77598423;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
        transform="translate(10.82291,-23.07768)"
        id="g4974">
@@ -4044,377 +4091,159 @@
     <path
        id="path1980"
        d="M 448.93971,220.48757 C 215.63603,249.66867 14.688823,394.03258 62.873944,557.10845 C 92.057449,655.87548 246.19315,755.89115 406.4171,716.71691 L 406.4171,717.50721 C 437.16778,708.53906 466.54766,698.36239 494.23129,686.85182 C 681.06324,609.16727 835.7679,310.28946 447.75305,321.94846 L 443.99519,467.51427 C 518.16128,463.1346 489.54703,530.30227 455.07089,547.61476 C 361.64272,594.53159 236.4347,542.47779 197.36405,482.14995 C 127.47604,374.23775 250.61043,259.11913 410.37274,227.01431 C 423.03006,224.47079 435.93498,222.32684 448.93971,220.68535 L 448.93971,220.48757 z "
-       style="fill:url(#linearGradient12220);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.34530589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:url(#linearGradient2923);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.34530589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
-       transform="translate(0,65.8446)"
-       id="g5037" />
-    <g
-       id="g5018">
-      <g
-         transform="translate(48.54691,89.84459)"
-         id="g3825">
-        <text
-           xml:space="preserve"
-           style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="155.85396"
-           y="231.48518"
-           id="text3701"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3703"
-             x="155.85396"
-             y="231.48518">lilypond</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="380.72092"
-           y="258.08505"
-           id="text3705"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3707"
-             x="380.72092"
-             y="258.08505">marcos di silva</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="357.07443"
-           y="233.4969"
-           id="text3709"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3711"
-             x="357.07443"
-             y="233.4969">27 a 31/ago</tspan></text>
-      </g>
-      <g
-         transform="translate(48.54691,71.36585)"
-         id="g3833">
-        <text
-           xml:space="preserve"
-           style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="156.27876"
-           y="339.25607"
-           id="text3761"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3763"
-             x="156.27876"
-             y="339.25607">pure data</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="358.90646"
-           y="365.85596"
-           id="text3765"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3767"
-             x="358.90646"
-             y="365.85596">cristiano figueiró</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="357.61154"
-           y="341.26779"
-           id="text3769"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3771"
-             x="357.61154"
-             y="341.26779">17 a 21/set</tspan></text>
-      </g>
-      <g
-         transform="translate(48.54691,24.28773)"
-         id="g3889">
-        <text
-           xml:space="preserve"
-           style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="156.85005"
-           y="615.54071"
-           id="text3789"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3791"
-             x="156.85005"
-             y="615.54071">csound</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="402.36545"
-           y="642.14056"
-           id="text3793"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3795"
-             x="402.36545"
-             y="642.14056">pedro kröger</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="357.25021"
-           y="617.55243"
-           id="text3797"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3799"
-             x="357.25021"
-             y="617.55243">19 a 23/nov</tspan></text>
-      </g>
-      <g
-         transform="translate(48.54691,56.67496)"
-         id="g3871">
-        <text
-           xml:space="preserve"
-           style="font-size:30px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="155.85396"
-           y="447.8707"
-           id="text3775"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3777"
-             x="155.85396"
-             y="447.8707">linux</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="380.72092"
-           y="474.47055"
-           id="text3779"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3781"
-             x="380.72092"
-             y="474.47055">marcos di silva</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="381.59592"
-           y="449.88242"
-           id="text3783"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3785"
-             x="381.59592"
-             y="449.88242">1 a 5/out</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="373.5256"
-           y="494.80585"
-           id="text3863"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3865"
-             x="373.5256"
-             y="494.80585">givaldo de cidra</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="402.36545"
-           y="516.19586"
-           id="text3867"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3869"
-             x="402.36545"
-             y="516.19586">pedro kröger</tspan></text>
-      </g>
-      <g
-         id="g5027"
-         transform="matrix(1.281645,0,0,1.281645,-408.0086,-264.3074)">
-        <text
-           sodipodi:linespacing="125%"
-           id="text3897"
-           y="806.94958"
+       transform="matrix(1.281645,0,0,1.281645,-408.0086,-264.3074)"
+       id="g5027">
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         x="666.67261"
+         y="806.94958"
+         id="text3897"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
            x="666.67261"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           xml:space="preserve"><tspan
-             id="tspan3901"
-             y="806.94958"
-             x="666.67261"
-             sodipodi:role="line">local: genoslab (escola de música)</tspan></text>
-        <text
-           sodipodi:linespacing="125%"
-           id="text3919"
+           y="806.94958"
+           id="tspan3901">local: genoslab (escola de música)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         x="665.40698"
+         y="826.93451"
+         id="text3919"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="665.40698"
            y="826.93451"
+           id="tspan3921">horário: 17 às 19 horas</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         x="665.40698"
+         y="844.66357"
+         id="text3923"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
            x="665.40698"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           xml:space="preserve"><tspan
-             id="tspan3921"
-             y="826.93451"
-             x="665.40698"
-             sodipodi:role="line">horário: 17 às 19 horas</tspan></text>
-        <text
-           sodipodi:linespacing="125%"
-           id="text3923"
            y="844.66357"
+           id="tspan3925">carga horária: 10 horas</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         x="665.40698"
+         y="863.43268"
+         id="text3927"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
            x="665.40698"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           xml:space="preserve"><tspan
-             id="tspan3925"
-             y="844.66357"
-             x="665.40698"
-             sodipodi:role="line">carga horária: 10 horas</tspan></text>
-        <text
-           sodipodi:linespacing="125%"
-           id="text3927"
            y="863.43268"
-           x="665.40698"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           xml:space="preserve"><tspan
-             id="tspan3929"
-             y="863.43268"
-             x="665.40698"
-             sodipodi:role="line">informações: http://wiki.genos.mus.br/Cursos</tspan></text>
-      </g>
+           id="tspan3929">informações: http://wiki.genos.mus.br/Cursos</tspan></text>
+    </g>
+    <g
+       transform="translate(43.29927,-1.88258)"
+       id="g2203">
       <g
-         id="g2203"
-         transform="translate(43.29927,-1.88258)">
-        <g
-           id="g2196">
-          <text
-             xml:space="preserve"
-             style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-             x="672.78619"
+         id="g2196">
+        <text
+           sodipodi:linespacing="125%"
+           id="text2149"
+           y="922.388"
+           x="672.78619"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           xml:space="preserve"><tspan
+             id="tspan2151"
              y="922.388"
-             id="text2149"
-             sodipodi:linespacing="125%"><tspan
-               sodipodi:role="line"
-               x="672.78619"
-               y="922.388"
-               id="tspan2151">universidade federal da bahia</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
              x="672.78619"
+             sodipodi:role="line">universidade federal da bahia</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text2157"
+           y="938.57672"
+           x="672.78619"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           xml:space="preserve"><tspan
              y="938.57672"
-             id="text2157"
-             sodipodi:linespacing="125%"><tspan
-               sodipodi:role="line"
-               id="tspan2165"
-               x="672.78619"
-               y="938.57672">escola de música</tspan><tspan
-               sodipodi:role="line"
-               id="tspan2167"
-               x="672.78619"
-               y="953.57672" /></text>
-        </g>
-        <g
-           id="g2187">
-          <text
-             xml:space="preserve"
-             style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-             x="673.02057"
-             y="969.6391"
-             id="text3903"
-             sodipodi:linespacing="125%"><tspan
-               sodipodi:role="line"
-               x="673.02057"
-               y="969.6391"
-               id="tspan3915">realização: genos</tspan><tspan
-               sodipodi:role="line"
-               x="673.02057"
-               y="984.6391"
-               id="tspan2169">grupo de pesquisa em computação musical</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-             x="673.19049"
-             y="1001.4888"
-             id="text2153"
-             sodipodi:linespacing="125%"><tspan
-               sodipodi:role="line"
-               x="673.19049"
-               y="1001.4888"
-               id="tspan2155">http://wiki.genos.mus.br/</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-             x="672.84479"
-             y="1017.9973"
-             id="text2161"
-             sodipodi:linespacing="125%"><tspan
-               sodipodi:role="line"
-               x="672.84479"
-               y="1017.9973"
-               id="tspan2163">coordenação: pedro kröger</tspan></text>
-        </g>
+             x="672.78619"
+             id="tspan2165"
+             sodipodi:role="line">escola de música</tspan><tspan
+             y="953.57672"
+             x="672.78619"
+             id="tspan2167"
+             sodipodi:role="line" /></text>
       </g>
       <g
-         id="g4980">
+         id="g2187">
         <text
            sodipodi:linespacing="125%"
-           id="text3679"
-           y="97.456329"
-           x="77.989777"
-           style="font-size:54.76308823px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           id="text3903"
+           y="969.6391"
+           x="673.02057"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
            xml:space="preserve"><tspan
-             y="97.456329"
-             x="77.989777"
-             id="tspan3681"
-             sodipodi:role="line">computação musical</tspan></text>
+             id="tspan3915"
+             y="969.6391"
+             x="673.02057"
+             sodipodi:role="line">realização: genos</tspan><tspan
+             id="tspan2169"
+             y="984.6391"
+             x="673.02057"
+             sodipodi:role="line">grupo de pesquisa em computação musical</tspan></text>
         <text
            sodipodi:linespacing="125%"
-           id="text5075"
-           y="159.68803"
-           x="115.70058"
-           style="font-size:31.71426582px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           id="text2153"
+           y="1001.4888"
+           x="673.19049"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
            xml:space="preserve"><tspan
-             y="159.68803"
-             x="115.70058"
-             id="tspan5077"
-             sodipodi:role="line">cursos de extensão do genos</tspan></text>
+             id="tspan2155"
+             y="1001.4888"
+             x="673.19049"
+             sodipodi:role="line">http://wiki.genos.mus.br/</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text2161"
+           y="1017.9973"
+           x="672.84479"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           xml:space="preserve"><tspan
+             id="tspan2163"
+             y="1017.9973"
+             x="672.84479"
+             sodipodi:role="line">coordenação: pedro kröger</tspan></text>
       </g>
     </g>
-    <text
-       y="1486.7405"
-       x="-1326.826"
-       style="font-size:3.86523414px;font-family:Schoolbook"
-       id="text797">
-      <tspan
-         id="tspan799" />
-    </text>
-    <line
-       x1="-1311.7382"
-       y1="1509.2843"
-       x2="-1136.9138"
-       y2="1509.2843"
-       id="line803"
-       style="stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
-    <line
-       x1="-1311.7382"
-       y1="1507.527"
-       x2="-1136.9138"
-       y2="1507.527"
-       id="line807"
-       style="stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
-    <line
-       x1="-1311.7382"
-       y1="1505.7697"
-       x2="-1136.9138"
-       y2="1505.7697"
-       id="line811"
-       style="stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
-    <line
-       x1="-1311.7382"
-       y1="1504.0123"
-       x2="-1136.9138"
-       y2="1504.0123"
-       id="line815"
-       style="stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
-    <line
-       x1="-1311.7382"
-       y1="1502.2551"
-       x2="-1136.9138"
-       y2="1502.2551"
-       id="line819"
-       style="stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round" />
+    <g
+       transform="translate(0,3.2339245e-5)"
+       id="g4980">
+      <text
+         xml:space="preserve"
+         style="font-size:54.76308823px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         x="77.989777"
+         y="97.456329"
+         id="text3679"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3681"
+           x="77.989777"
+           y="97.456329">computação musical</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:31.71426582px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         x="115.70058"
+         y="159.68803"
+         id="text5075"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5077"
+           x="115.70058"
+           y="159.68803">cursos de extensão do genos</tspan></text>
+    </g>
     <g
        id="g12250">
       <text
          xml:space="preserve"
-         style="font-size:6.62547016px;font-style:normal;font-weight:normal;fill:white;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         style="font-size:6.62547016px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
          x="22.487879"
          y="979.37158"
          id="text4852"><tspan
@@ -4429,7 +4258,7 @@
            transform="matrix(0.477062,0,0,0.477062,107.8451,636.4705)"
            id="g9741">
           <rect
-             style="opacity:0.9;color:black;fill:url(#linearGradient12244);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+             style="opacity:0.9;color:#000000;fill:url(#linearGradient12244);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
              id="rect9743"
              width="25"
              height="25"
@@ -4437,7 +4266,7 @@
              y="780.45874"
              ry="0.011358884" />
           <rect
-             style="opacity:0.9;color:black;fill:url(#linearGradient12246);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+             style="opacity:0.9;color:#000000;fill:url(#linearGradient12246);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
              id="rect9745"
              width="25"
              height="25"
@@ -4458,6 +4287,269 @@
              y="1039.5126"
              x="16.872467"
              sodipodi:role="line">marcos di silva</tspan></text>
+      </g>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3056"
+       y="206.83994"
+       x="606.6394"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+       xml:space="preserve"><tspan
+         y="206.83994"
+         x="606.6394"
+         id="tspan3058"
+         sodipodi:role="line">2008.1</tspan></text>
+    <g
+       id="g3545">
+      <g
+         id="g3503">
+        <text
+           xml:space="preserve"
+           style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="64.639153"
+           y="348.91562"
+           id="text3701"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3703"
+             x="64.639153"
+             y="348.91562">lilypond introdutório</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="569.69019"
+           y="362.50964"
+           id="text3705"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3707"
+             x="569.69019"
+             y="362.50964">marcos di silva</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="581.11011"
+           y="341.92148"
+           id="text3709"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3711"
+             x="581.11011"
+             y="341.92148">1 a 5/abr</tspan></text>
+      </g>
+      <g
+         id="g3511">
+        <text
+           xml:space="preserve"
+           style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="65.035637"
+           y="427.60056"
+           id="text3761"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3763"
+             x="65.035637"
+             y="427.60056">áudio digital introdutório</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="533.48511"
+           y="445.53638"
+           id="text3765"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3767"
+             x="533.48511"
+             y="445.53638">guilherme bertissolo</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="559.52417"
+           y="420.94821"
+           id="text3769"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3771"
+             x="559.52417"
+             y="420.94821">14 a 18/abr</tspan></text>
+      </g>
+      <g
+         id="g3527">
+        <text
+           xml:space="preserve"
+           style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="65.137199"
+           y="591.90118"
+           id="text3789"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3791"
+             x="65.137199"
+             y="591.90118">latex</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="591.33472"
+           y="609.85455"
+           id="text3793"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3795"
+             x="591.33472"
+             y="609.85455">pedro kröger</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="561.68628"
+           y="585.26642"
+           id="text3797"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3799"
+             x="561.68628"
+             y="585.26642">26 a 30/mai</tspan></text>
+      </g>
+      <g
+         id="g3519">
+        <text
+           xml:space="preserve"
+           style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="64.823235"
+           y="510.09708"
+           id="text3775"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3777"
+             x="64.823235"
+             y="510.09708">pure data introdutório</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="547.87573"
+           y="527.69104"
+           id="text3779"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3781"
+             x="547.87573"
+             y="527.69104">cristiano figueiró</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="572.47925"
+           y="503.10294"
+           id="text3783"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3785"
+             x="572.47925"
+             y="503.10294">5 a 10/mai</tspan></text>
+      </g>
+      <g
+         id="g3535">
+        <text
+           xml:space="preserve"
+           style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="65.519524"
+           y="664.23877"
+           id="text3077"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3079"
+             x="65.519524"
+             y="664.23877">ardour introdutório</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="547.87573"
+           y="681.83276"
+           id="text3083"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3085"
+             x="547.87573"
+             y="681.83276">cristiano figueiró</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="570.45776"
+           y="657.24463"
+           id="text3087"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3089"
+             x="570.45776"
+             y="657.24463">9 a 13/jun</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="533.48511"
+           y="702.16809"
+           id="text3091"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3093"
+             x="533.48511"
+             y="702.16809">guilherme bertissolo</tspan></text>
+      </g>
+      <g
+         id="g3491">
+        <text
+           xml:space="preserve"
+           style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="64.772453"
+           y="253.46533"
+           id="text3099"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3101"
+             x="64.772453"
+             y="253.46533">ferramentas computacionais</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="516.49292"
+           y="246.47119"
+           id="text3109"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3111"
+             x="516.49292"
+             y="246.47119">14/mar a 20/jun</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="591.33472"
+           y="271.05933"
+           id="text3145"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3147"
+             x="591.33472"
+             y="271.05933">pedro kröger</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="562.72925"
+           y="291.39465"
+           id="text3153"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3155"
+             x="562.72925"
+             y="291.39465">alexandre passos</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           x="66.343742"
+           y="271.05933"
+           id="text3328"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3330"
+             x="66.343742"
+             y="271.05933">30 horas - sextas 7:30-9:30</tspan></text>
       </g>
     </g>
   </g>
