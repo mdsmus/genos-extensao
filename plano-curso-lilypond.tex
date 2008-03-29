@@ -1,0 +1,123 @@
+\documentclass[12pt,brazil]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage{babel}
+\usepackage[a4paper,top=2.5cm,left=3cm,right=3cm,bottom=2.5cm]{geometry}
+\usepackage{url}
+
+\newcommand{\eng}[1]{\textit{#1}}
+
+\begin{document}
+
+\title{Plano do curso introdutório de Lilypond}
+\author{Marcos da Silva Sampaio}
+\maketitle
+\thispagestyle{empty}
+
+\section{Aula 1 --- Introdução ao curso}
+
+\paragraph{Objetivo}
+Apresentar aos alunos informações gerais sobre o Lilypond e uma
+introdução à sua sintaxe.
+
+\paragraph{Conteúdo}
+\begin{enumerate}
+\item Diferenças entre software livre e software proprietário:
+  liberdade e desenvolvimento.
+\item Página do projeto, documentação, tutoriais e listas de discussão.
+\item O papel do tipógrafo musical, problemas com softwares de edição
+  de partituras e tipografia automática no Lilypond.
+\item Conceito de wysiwyg e diferenças entre Lilypond e outros
+  softwares de edição de partituras.
+\item Lilypond e formato ly: software e sintaxe.
+\item Softwares necessários e \eng{modus operandi} do Lilypond.
+\item Exemplos de operações avançadas com o Lilypond.
+\item Instalação do Lilypond e do editor Jedit no Linux e Windows.
+\item Um pouco de sintaxe: notas, acidentes, duração e
+  articulação. (crash course).
+\end{enumerate}
+
+\paragraph{Atividades}
+\begin{enumerate}
+\item Inscrever os alunos na lista genos-users.
+\item Ver páginas do projeto e de tutoriais.
+\item Experimentar diferentes editores de texto para o Lilypond.
+\item Escrever fragmentos simples como \{c d e f\} e processar com o
+  Lilypond.
+\end{enumerate}
+
+\section{Aula 2 --- Sintaxe 1}
+\paragraph{Objetivo}
+Apresentar estrutura de um arquivo .ly e comandos gerais básicos.
+\paragraph{Conteúdo}
+\begin{enumerate}
+\item Comentários no .ly.
+\item Estrutura geral de um arquivo .ly.
+\item Comandos $\backslash$relative, $\backslash$version
+\item Elementos musicais: acidentes, ritmo/duração, pausa, silêncio,
+  dinâmica, articulação, ligaduras, colchetes, clave, armadura de
+  clave, compasso, simultaneidade (acordes) e quiálteras
+\end{enumerate}
+\paragraph{Atividades}
+\begin{enumerate}
+\item Escrever fragmentos com elementos musicais variados.
+\end{enumerate}
+
+\section{Aula 3 --- Sintaxe 2}
+\paragraph{Objetivo}
+Apresentação de comandos gerais intermediários.
+\paragraph{Conteúdo}
+\begin{enumerate}
+\item Repetições
+\item Elementos musicais: anacruse, barra de compasso, metrônomo,
+  dedilhado, tablatura, lyrics, cifra, baixo cifrado.
+\item Simultaneidade (polifonia)
+\item Textos
+\end{enumerate}
+\paragraph{Atividades}
+\begin{enumerate}
+\item Escrever fragmentos com elementos musicais variados.
+\item Escrever melodia com lyrics, cifra e baixo cifrado.
+\end{enumerate}
+
+\section{Aula 4 --- Variáveis e vários instrumentos}
+\paragraph{Objetivo}
+Apresentar sintaxe para partituras com vários instrumentos.
+\paragraph{Conteúdo}
+\begin{enumerate}
+\item Estrutura geral do arquivo para conter vários instrumentos.
+\item Abstraindo música em variáveis: utilidade e sintaxe.
+  \begin{enumerate}
+  \item $\backslash$book, $\backslash$score, $\backslash$new staff,
+    $\backslash$new voice, nomes dos instrumentos, midi.
+  \end{enumerate}
+\item Agrupamento de instrumentos em chaves e colchetes.
+\end{enumerate}
+\paragraph{Atividades}
+\begin{enumerate}
+\item Escrever fragmento para duo de flautas.
+\item Escrever fragmento para coral a 4 vozes em 2 pentagramas.
+\item Escrever fragmento para orquestra.
+\end{enumerate}
+
+\section{Aula 5 --- Ferramentas extendidas}
+\paragraph{Objetivo}
+Apresentar programas que dialogam com o Lilypond.
+\paragraph{Conteúdo}
+\begin{enumerate}
+\item Inkscape
+\item OOoLilypond
+\item Lytex
+\item Outras ferramentas do Lilypond.
+  \begin{enumerate}
+  \item música contemporânea.
+  \item educação musical.
+  \end{enumerate}
+\end{enumerate}
+\paragraph{Atividades}
+\begin{enumerate}
+\item Editar figura gerada pelo Lilypond no Inkscape.
+\item Inserir figura do Lilypond no OpenOffice.
+\item Criar pequeno arquivo Lytex.
+\end{enumerate}
+
+\end{document}
