@@ -1,13 +1,13 @@
-NAME = curso-csound-intro curso-ferramentas-genos curso-lilypond curso-linux-intro curso-audio-basico curso-ardour
+NAME = projeto-curso-csound-intro projeto-curso-ferramentas-genos projeto-curso-lilypond projeto-curso-linux-intro projeto-curso-audio-basico projeto-curso-ardour
 USE_PDFLATEX=1
 
 -include /usr/share/latex-mk/latex.gmk
 
-doc: curso-csound-intro.pdf curso-ferramentas-genos.pdf curso-lilypond.pdf curso-linux-intro.pdf curso-audio-basico.pdf curso-ardour.pdf
+doc: projeto-curso-csound-intro.pdf projeto-curso-ferramentas-genos.pdf projeto-curso-lilypond.pdf projeto-curso-linux-intro.pdf projeto-curso-audio-basico.pdf projeto-curso-ardour.pdf
 
-csound: curso-csound-intro.pdf
-genos: curso-ferramentas-genos.pdf
-lily: curso-lilypond.pdf
-linux: curso-linux-intro.pdf
-audio: curso-audio-basico.pdf
-ardour: curso-ardour.pdf
+csound: projeto-curso-csound-intro.pdf
+genos: projeto-curso-ferramentas-genos.pdf
+lily: projeto-curso-lilypond.pdf
+linux: projeto-curso-linux-intro.pdf
+audio: projeto-curso-audio-basico.pdf
+ardour: projeto-curso-ardour.pdf
