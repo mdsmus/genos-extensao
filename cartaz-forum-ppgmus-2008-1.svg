@@ -5737,7 +5737,7 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient2788"
-       id="linearGradient9735"
+       id="linearGradient3146"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(0,0.944474)"
        x1="317.37906"
@@ -5757,16 +5757,16 @@
      bordercolor="#666666"
      pagecolor="#ffffff"
      id="base"
-     inkscape:zoom="1.0585709"
+     inkscape:zoom="0.52928545"
      inkscape:cx="551.43456"
-     inkscape:cy="174.16433"
+     inkscape:cy="476.45868"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:current-layer="svg2"
      showguides="true"
      inkscape:guide-bbox="true" />
   <g
-     id="g9774">
+     id="g3054">
     <g
        transform="translate(0,65.8446)"
        id="g5037" />
@@ -5819,7 +5819,7 @@
        height="1055.1462"
        width="754.47131"
        id="use1895"
-       style="fill:url(#linearGradient9735);fill-opacity:1;stroke:#7e6186;stroke-width:0.77598423;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:url(#linearGradient3146);fill-opacity:1;stroke:#7e6186;stroke-width:0.77598423;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
        transform="translate(-271.12024,15.114717)"
        id="g6176">
@@ -5980,98 +5980,83 @@
            y="818.25146"
            id="tspan3925">hora: 14hs</tspan></text>
     </g>
-    <g
-       transform="translate(0,40)"
-       id="g6234">
-      <text
-         sodipodi:linespacing="125%"
-         id="text3099"
-         y="328.69894"
+    <text
+       xml:space="preserve"
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+       x="76.533516"
+       y="368.69894"
+       id="text3099"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3101"
          x="76.533516"
-         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-         xml:space="preserve"><tspan
-           y="328.69894"
-           x="76.533516"
-           id="tspan3101"
-           sodipodi:role="line">o grupo de pesquisa genos</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text5966"
-         y="269.83344"
+         y="368.69894">o grupo de pesquisa genos</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+       x="37.072521"
+       y="289.83344"
+       id="text5966"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5968"
          x="37.072521"
-         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-         xml:space="preserve"><tspan
-           y="269.83344"
-           x="37.072521"
-           id="tspan5968"
-           sodipodi:role="line">programação:</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text5970"
-         y="382.99393"
+         y="289.83344">programação:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+       x="75.644844"
+       y="422.99393"
+       id="text5970"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5972"
          x="75.644844"
-         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-         xml:space="preserve"><tspan
-           y="382.99393"
-           x="75.644844"
-           id="tspan5972"
-           sodipodi:role="line">pesquisa: análise automática de harmonia</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text5974"
-         y="436.90805"
-         x="75.543282"
-         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-         xml:space="preserve"><tspan
-           y="436.90805"
-           x="75.543282"
-           id="tspan5976"
-           sodipodi:role="line">ferramentas utilizadas</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text5978"
-         y="485.93448"
+         y="422.99393">uso eficiente do computador</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+       x="75.27668"
+       y="525.93445"
+       id="text5978"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5980"
          x="75.27668"
-         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-         xml:space="preserve"><tspan
-           y="485.93448"
-           x="75.27668"
-           id="tspan5980"
-           sodipodi:role="line">lilypond: pesquisa e desenvolvimento</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text5982"
-         y="540.22949"
+         y="525.93445">produtividade na edição de partituras</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+       x="75.644844"
+       y="580.22949"
+       id="text5982"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5984"
          x="75.644844"
-         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-         xml:space="preserve"><tspan
-           y="540.22949"
-           x="75.644844"
-           id="tspan5984"
-           sodipodi:role="line">áudio para linux</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text5986"
-         y="593.82629"
+         y="580.22949">montagem de um estúdio com software livre</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+       x="75.644844"
+       y="633.82629"
+       id="text5986"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5988"
          x="75.644844"
-         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-         xml:space="preserve"><tspan
-           y="593.82629"
-           x="75.644844"
-           id="tspan5988"
-           sodipodi:role="line">pure data</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text5990"
-         y="648.12128"
+         y="633.82629">interação entre músico e máquina</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+       x="75.416328"
+       y="688.12128"
+       id="text5990"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5992"
          x="75.416328"
-         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-         xml:space="preserve"><tspan
-           y="648.12128"
-           x="75.416328"
-           id="tspan5992"
-           sodipodi:role="line">síntese sonora</tspan></text>
-    </g>
+         y="688.12128">síntese sonora</tspan></text>
     <g
        transform="translate(2.8340095,21.727406)"
        id="g6161">
@@ -6133,7 +6118,7 @@
            y="970.49835" /></text>
     </g>
     <g
-       transform="translate(0,22)"
+       transform="translate(11.336038,62.782736)"
        id="g6188">
       <g
          id="g6095"
@@ -6280,5 +6265,16 @@
          x="313.51794"
          id="tspan9759"
          sodipodi:role="line">wiki.genos.mus.br</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+       x="75.543282"
+       y="476.90805"
+       id="text5974"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5976"
+         x="75.543282"
+         y="476.90805">análise automática de harmonia</tspan></text>
   </g>
 </svg>
