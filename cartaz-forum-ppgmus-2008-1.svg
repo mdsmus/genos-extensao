@@ -5737,7 +5737,7 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient2788"
-       id="linearGradient3146"
+       id="linearGradient3144"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(0,0.944474)"
        x1="317.37906"
@@ -5757,16 +5757,16 @@
      bordercolor="#666666"
      pagecolor="#ffffff"
      id="base"
-     inkscape:zoom="0.52928545"
-     inkscape:cx="551.43456"
-     inkscape:cy="476.45868"
+     inkscape:zoom="0.37426134"
+     inkscape:cx="551.43455"
+     inkscape:cy="636.77446"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:current-layer="svg2"
      showguides="true"
      inkscape:guide-bbox="true" />
   <g
-     id="g3054">
+     id="g3219">
     <g
        transform="translate(0,65.8446)"
        id="g5037" />
@@ -5819,7 +5819,7 @@
        height="1055.1462"
        width="754.47131"
        id="use1895"
-       style="fill:url(#linearGradient3146);fill-opacity:1;stroke:#7e6186;stroke-width:0.77598423;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:url(#linearGradient3144);fill-opacity:1;stroke:#7e6186;stroke-width:0.77598423;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
        transform="translate(-271.12024,15.114717)"
        id="g6176">
@@ -6117,113 +6117,17 @@
            x="722.22223"
            y="970.49835" /></text>
     </g>
-    <g
-       transform="translate(11.336038,62.782736)"
-       id="g6188">
-      <g
-         id="g6095"
-         transform="translate(-49.122831,136.03245)">
-        <text
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="652.04773"
-           y="558.3927"
-           id="text5994"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan5996"
-             x="652.04773"
-             y="558.3927">pedro kröger</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="630.4032"
-           y="576.72974"
-           id="text5998"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan6000"
-             x="630.4032"
-             y="576.72974">marcos di silva</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="623.20789"
-           y="592.81091"
-           id="text6002"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan6004"
-             x="623.20789"
-             y="592.81091">givaldo de cidra</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="608.58875"
-           y="629.51428"
-           id="text6006"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan6008"
-             x="608.58875"
-             y="629.51428">cristiano figueiró</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="666.61414"
-           y="684.52539"
-           id="text6010"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan6012"
-             x="666.61414"
-             y="684.52539">pedro dias</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="623.44226"
-           y="611.00146"
-           id="text6014"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan6016"
-             x="623.44226"
-             y="611.00146">alexandre passos</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="601.39343"
-           y="666.18835"
-           id="text6018"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan6020"
-             x="601.39343"
-             y="666.18835">grazieno pellegrino</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="594.19812"
-           y="647.85132"
-           id="text6022"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan6024"
-             x="594.19812"
-             y="647.85132">guilherme bertissolo</tspan></text>
-      </g>
-      <text
-         sodipodi:linespacing="125%"
-         id="text6184"
-         y="661.96118"
-         x="507.41415"
-         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-         xml:space="preserve"><tspan
-           y="661.96118"
-           x="507.41415"
-           id="tspan6186"
-           sodipodi:role="line">integrantes:</tspan></text>
-    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+       x="518.75018"
+       y="724.7439"
+       id="text6184"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6186"
+         x="518.75018"
+         y="724.7439">integrantes:</tspan></text>
     <g
        transform="translate(-55.994916,0)"
        id="g6227">
@@ -6276,5 +6180,118 @@
          id="tspan5976"
          x="75.543282"
          y="476.90805">análise automática de harmonia</tspan></text>
+    <g
+       id="g3197">
+      <text
+         sodipodi:linespacing="125%"
+         id="text5994"
+         y="757.20789"
+         x="614.26093"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="757.20789"
+           x="614.26093"
+           id="tspan5996"
+           sodipodi:role="line">pedro kröger</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5998"
+         y="775.08234"
+         x="592.61639"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="775.08234"
+           x="592.61639"
+           id="tspan6000"
+           sodipodi:role="line">marcos di silva</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text6002"
+         y="790.62769"
+         x="585.42108"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="790.62769"
+           x="585.42108"
+           id="tspan6004"
+           sodipodi:role="line">givaldo de cidra</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text6006"
+         y="824.06213"
+         x="570.80194"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="824.06213"
+           x="570.80194"
+           id="tspan6008"
+           sodipodi:role="line">cristiano figueiró</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text6010"
+         y="907.34058"
+         x="628.82733"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="907.34058"
+           x="628.82733"
+           id="tspan6012"
+           sodipodi:role="line">pedro dias</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text6014"
+         y="807.22772"
+         x="585.65546"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="807.22772"
+           x="585.65546"
+           id="tspan6016"
+           sodipodi:role="line">alexandre passos</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text6018"
+         y="857.32074"
+         x="563.60663"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="857.32074"
+           x="563.60663"
+           id="tspan6020"
+           sodipodi:role="line">grazieno pellegrino</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text6022"
+         y="840.64746"
+         x="556.41132"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="840.64746"
+           x="556.41132"
+           id="tspan6024"
+           sodipodi:role="line">guilherme bertissolo</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3189"
+         y="875.04871"
+         x="592.5871"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="875.04871"
+           x="592.5871"
+           id="tspan3191"
+           sodipodi:role="line">alexandre reche</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3193"
+         y="890.59406"
+         x="614.43671"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="890.59406"
+           x="614.43671"
+           id="tspan3195"
+           sodipodi:role="line">amaro borges</tspan></text>
+    </g>
   </g>
 </svg>
