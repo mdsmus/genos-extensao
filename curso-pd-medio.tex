@@ -1,0 +1,155 @@
+\documentclass{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8x]{inputenc}
+
+
+\title{Curso intermediário de Pure data }
+
+\author{Cristiano Figueiró }
+
+\begin{document}
+
+\date{\today}
+
+\maketitle
+%%\tableofcontents
+\section{ Resumo}
+
+
+Pd trabalha com, digamos, "dados puros". Essa é uma das diferenças entre ele e o Max/MSP, seu concorrente comercial. Por trabalhar assim, seu âmbito de realizações acaba sendo potencialmente muito maior que o do Max/MSP. Os comandos do Pd são muito próximos aos da linguagem de programação C, o que pode facilitar o seu aprendizado para quem já possui um conhecimento prévio dessa linguagem.
+
+Pd foi criado para explorar idéias de como promover e permitir que dados possam ser tratados de maneira mais aberta, facilitando acesso e interligação entre aplicações de áudio, MIDI, gráficas e vídeo, dentre outras possibilidades.
+
+Escrevendo objetos ("externals") ou módulos ("patches", "abstractions") consegue-se ampliar as funcionalidades do Pd. Os trabalhos de muitos desenvolvedores estão disponíveis como parte do pacote básico do Pd e a comunidade de desenvolvedores cresce muito rapidamente.
+
+Desenvolvimentos recentes incluem projetos de sistemas para construção de ambientes de performances; bibliotecas de objetos para "physical modeling"; bibliotecas de objetos para geração e processamento de vídeo em tempo real, etc...
+
+Nesse curso iremos aprofundar os conceitos já trabalhados em outros dois cursos anteriores realizados com sucesso. Entre os tópicos a ser abordados destacamos o aprofundamento da análise de áudio em tempo-real, conexão do Pd com Arduino e computação física, composição algorítmica, conexão com outros programas e composição colaborativa através da internet (NetPd).
+
+
+
+\section{Introdução}
+
+
+       O Pure data (Pd) pode ser considerado atualmente como um dos melhores e mais
+poderosos programas para composição de música interativa aliando as possibilidades
+computacionais de síntese sonora e processamento de áudio a um ambiente gráfico de
+programação voltado à interação sonora em tempo-real. Se trata de um programa gráfico
+com interface amigável, multi-plataforma, com o código fonte aberto, e com formato não
+proprietário. Ele é a terceira maior ramificação da família de programas que usam
+linguagem de programação modular, conhecida como Max (Max/MSP, jMax, etc.)
+originalmente desenvolvida por Miller Puckette (IRCAM). O núcleo do Pd é escrito e
+mantido por Miller Puckette e adicionado ao trabalho de muitos outros desenvolvedores.
+      
+
+ O objetivo é oferecer um curso intermediário desse programa onde além de
+demonstrar as possibilidades e limitações dessa ferramenta o participante adquira uma
+autonomia de estudo mais aprofundado do programa. Além disso, entender os conceitos e
+técnicas básicas de síntese sonora na prática do programa, entender as possibilidades e
+limitações da interação em tempo-real entre músico e computador, aprender os conceitos
+de programação em Pd e como usá-lo num projeto composicional.
+
+O Pd é uma linguagem gráfica orientada ao objeto e desenvolvido por uma comunidade de programadores.
+O núcleo da linguagem é desenvolvida e mantida por seu criador Miller Puckette, enquanto as outras bibliotecas (conexões com outras linguagens e utilitários diversos) ficam a cargo da comunidade. Apesar de já existir um protocolo de desenvolvimento desses objetos externos, cada desenvolvedor agrega novos estilos e recursos
+ de compilação desses objetos. Como o Pd é distribuído no nível do código fica relativamente complexo administrar a compilação de todas essas bibliotecas. Nesse curso iremos tratar sobre esses problemas de compilação de objetos externos o que por fim possibilita uma maior usabilidade e poder de interação com outros programas e linguagens.
+      
+
+ O curso terá 5 aulas de 2 horas em dias consecutivos (compreendendo uma semana
+letiva inteira). O curso se dirige aos alunos de composição musical, mas alunos de outras
+áreas (inclusive não musicais, como ciência da computação) são bem vindos. Os alunos
+devem estar cursando ou ter concluído o curso superior. O conhecimento básico de como
+utilizar um sistema operacional (Windows, MacOs, Linux) é requerido.
+      
+
+ Cristiano Figueiró tem trabalhado com o Pd e Max/MSP há quatro anos
+elaborando composições e artigos científicos sobre os paradigmas composicionais desses
+programas. Sua dissertação de mestrado está centrada no desenvolvimento de estratégias
+composicionais para a composição de peças eletroacústicas mistas envolvendo a
+interação entre músicos e computador em tempo real.
+
+
+\section{Justificativa}
+\label{sec:justificativa}
+           Disciplinas de graduação envolvendo música computacional ou informática em
+música são cada vez mais comuns em países como Estados Unidos, Inglaterra, França,
+Canadá, dentre outros. Já que o curso de graduação da Escola de Música da UFBA ainda
+não oferece disciplinas relacionadas à música computacional faz-se necessário
+complementar o conhecimento dos alunos da área de composição com cursos de extensão.
+	
+\section {Objetivos}
+
+Os objetivos do curso são:\\
+- ensinar a linguagem de programação gráfica Pd e como usá-la;\\
+- fornecer os conceitos básicos de implementação das principais técnicas de síntese sonora
+e processamento e análise de áudio em Pd;\\
+- fornecer os conceitos fundamentais de interação e exemplos de projetos composicionais
+envolvendo interação entre músicos e computadores;\\
+
+\section {Conteúdo programático}
+
+O curso constará de 5 aulas cujo conteúdo programático será como segue:\\
+1.  Revisão da introdução ao Pd:
+instalação, configuração e execução, estrutura da linguagem, operações matemáticas básicas
+e fluxo de dados;\\
+2. Protocolo MIDI, envelopes e automações, composição algorítmica e conexão com outros programas;\\
+3. Implementação de técnicas clássicas de síntese sonora: Síntese Aditiva,
+síntese por modulação: freqüência modulada (FM) e amplitude modulada (AM),
+sampleamento, filtros e delay;\\
+4. Encapsulamento e sub-patchs, conexão do Pd com Arduino;\\
+5. Introdução a FFT (Fast Fourier Transform) em Pd, análise de áudio de entrada em
+tempo-real (objeto fiddle~) e e composição colaborativa através da internet (NetPd);\\
+
+\section {Metodologia}
+
+       Cada aula será dividida em três blocos principais; no primeiro serão apresentados
+aspectos teóricos e gerais do tópico em questão; no segundo bloco será visto como esses
+aspectos podem ser implementados no Pd; no último bloco serão corrigidos exercícios e
+dúvidas individuais esclarecidas.
+       As aulas serão ministradas no estúdio de música eletroacústica Genos e utilizarão de
+seu equipamento em benefício do curso. Um CD com todos os programas e exemplos
+necessários (Pd, alguns objetos externos, tutoriais e exemplos que serão abordados em aula)
+será distribuído no início do curso a cada aluno. Ao final de cada aula serão propostos
+exercícios e tarefas para aprofundar o conhecimento adquirido. As tarefas poderão ser feitas
+em casa, no caso dos alunos que possuem computador, ou no próprio Genos, em horários
+marcados        na      primeira     aula.    Um      fórum       na       internet     (em
+http://wiki.genos.mus.br/cursopd/forum) foi criado onde os alunos podem tirar dúvidas e
+trocar sugestões entre si.
+
+\section {Vagas}
+
+As turmas não devem ultrapassar a quantidade máxima de 13 e mínima de 3 alunos.
+
+\section {Referências Bibliográficas}
+1. Farnell, A. , Composition in puredata 1. Acessado em 25 de maio de 2007, em:\\
+http://www.obiwannabe.co.uk/html/music/musictuts/compose1/com
+position1/
+composition1.html.\\
+2. Puckette, M. A divide between ’compositional’ and ’performative’ aspects of pd. In
+Proceedings of the First Pd convention (2004).\\
+3. Roads, C. The Computer Music Tutorial. MIT Press, Massachussets (1996).\\
+4. Winkler, T. Composing Interactive Music - Techniques and ideas using Max. MIT Press,
+Massachussets (1993).
+
+\section { Clientela}
+O curso se dirige aos alunos de composição, mas alunos de outras áreas (inclusive não
+musicais, como ciência da computação) são bem vindos. Os alunos devem estar cursando
+ou ter concluído o curso superior. Os alunos deverão possuir algum conhecimento básico de
+como utilizar um sistema operacional (Windows, MacOs, Linux) já que tais conhecimentos
+não serão vistos durante o curso.
+\section {Duração} 
+O curso terá 5 aulas de 2 horas.
+
+\section {Vagas} 
+As turmas não devem ultrapassar a quantidade máxima de 13 e mínima de 3 alunos.
+\section {Material necessário}  
+Para o curso serão necessários os seguintes equipamentos:\\
+Para a sala de aula:\\
+1. Equipamento do estúdio Genos\\
+2. Datashow\\
+3. 13 cadeiras\\
+4. Quadro branco e canetas (Genos)\\
+
+\end{document}
+
+%%%%C-c C-c para compilar e visualizar
+
