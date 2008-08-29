@@ -14,7 +14,7 @@ attachment:ex-lily.png
 
 == Introdução à sintaxe ==
 
-Na sintaxe do Lilypond a música é colocada entre chaves. Letras como a, b e c representam notas como dó ré e mi. A duração das notas é representada por números como 2, 4 e 8 (mínima, semínima e colcheia). Os acidentes são representados por is (#), es (b), isis(##) e assim por diante. Dessa forma um código como {{{ { cis4 d8 ees f4 } }}} é interpretado como:
+Na sintaxe do Lilypond a música é colocada entre chaves. Letras como a, b e c representam notas como lá si e dó. A duração das notas é representada por números como 2, 4 e 8 (mínima, semínima e colcheia). Os acidentes são representados por is (#), es (b), isis (##) e assim por diante. Dessa forma um código como {{{ { cis4 d8 ees f4 } }}} é interpretado como:
 
 attachment:ex2-lily.png
 
