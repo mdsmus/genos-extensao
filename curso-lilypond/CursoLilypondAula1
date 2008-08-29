@@ -1,0 +1,115 @@
+= Curso Lilypond - Aula 01 =
+Conteúdo da aula 1
+
+== O que é o Lilypond ==
+
+O Lilypond é um software livre e gratuito de edição automática de partituras. É livre porque pode ser instalado, alterado e livremente distribuido. É automático porque, na maioria dos casos, dispensa ajustes de elementos musicais como distância entre pentagramas, ligaduras e outros.
+
+== Interface ==
+
+O Lilypond é um software que interpreta arquivos em formato .ly e gera arquivos .ps, .pdf, .svg, .png, etc. Embora existam interfaces gráficas para o Lilypond, elas não são necessárias como ocorre em softwares comerciais de edição de partitura.
+O formato .ly contém música codificada como { c } e gera arquivos .pdf como
+
+attachment:ex-lily.png
+
+== Introdução à sintaxe ==
+
+Na sintaxe do Lilypond a música é colocada entre chaves. Letras como a, b e c representam notas como dó ré e mi. A duração das notas é representada por números como 2, 4 e 8 (mínima, semínima e colcheia). Os acidentes são representados por is (#), es (b), isis(##) e assim por diante. Dessa forma um código como {{{ { cis4 d8 ees f4 } }}} é interpretado como:
+
+attachment:ex2-lily.png
+
+Comandos são iniciados com barra invertida e aceitam argumentos:
+{{{
+\clef bass
+\time 4/4
+\key a \major
+}}}
+
+Dessa forma uma música codificada como
+
+{{{
+{
+  \clef bass
+  \time 3/4
+  \key c \minor
+  \tempo 4=72
+  c8 d ees4 c4
+  f8 e aes g d4
+  c2.
+  \bar "|."
+}
+}}}
+
+é interpretada como:
+
+attachment:ex3-lily.png
+
+== Softwares necessários e modus operandi ==
+
+O arquivo .ly usado para descrever a música demanda de um bom editor de texto que "compreenda" a linguagem, indente o código, use cores para comandos e execute funções do Lilypond como compilar a música. Há vários editores para este fim como Jedit e Emacs. É necessário também um visualizador de pdf como Acrobat Reader ou similar.
+
+O Modus operandi do Lilypond é editar o arquivo .ly, salvar e fazer o Lilypond processar o .ly gerando o .pdf.
+No Linux o arquivo .pdf é gerado ao rodar o comando {{{lilypond arquivo.ly}}}. No Windows basta dar um duplo clique no ícone de arquivo.ly.
+
+Durante a edição da partitura é uma opção dividir a tela entre editor de texto e visualizador de pdf:
+
+attachment:ex4-lily.png
+
+== Operações avançadas ==
+
+ * Repetição
+ * Notação de clusters
+ * Abstração em variáveis
+
+== Vantagens do Lilypond ==
+
+ * Tipografia automática
+ * Gratuito
+ * Processo de compor personalizável
+ * Amplo suporte: Excelente documentação e comunidade dedicada
+ * Facilidade de tirar dúvidas: perguntas com os comandos usados
+ * Multiplataforma
+ * Leve (12MB depois de instalado)
+ * Qualidade clássica da tipografia
+ * Facilidade para inserir partitura em texto (Ooolilypond e latex)
+ * Facilidade para extrair partes (ambos saem da mesma fonte)
+ * Notação especial (notação de percussão, contemporânea, para uso educacional, baixo cifrado, etc)
+ * Suportado por outros programas (Rosegarden, Noteedit, Canorus, Powertab Tools, Denemo, Openoffice.org, Latex)
+ * Importação de ABC, ETF (Finale), MIDI, Music XML, Noteworthy Composer
+
+== Suporte ==
+
+ * Listas de discussão
+  * [http://lists.gnu.org/mailman/listinfo/lilypond-user lilypond-user]
+  * [http://groups.google.com.br/group/lilypond-brasil lilypond-brasil]
+  * [http://lists.genos.mus.br/cgi-bin/mailman/listinfo/genos-users genos-users]
+ * Documentação
+  * [http://lilypond.org/doc/v2.10/Documentation/user/lilypond/index Oficial]
+  * [http://www.genos.mus.br/handbook/ Genos handbook]
+ * Tutoriais
+  * [http://erasmo.info/lilypond/tutorial/ Erasmo Fernandes]
+  * [http://www.hugoribeiro.com.br/intro_lilypond/intro_lilypond.html Hugo Ribeiro]
+
+== Mais sintaxe ==
+
+ * notas
+ * acidentes
+ * ritmo/duração
+ * pausa
+ * silêncio
+ * articulação
+ * dinâmica
+ * metrônomo e comando \relative.
+
+== Instalação ==
+
+=== Linux ===
+
+A instalação no Linux pode ser feita através de gerenciadores de pacotes. No Ubuntu instala-se o Lilypond com:
+{{{sudo apt-get update && sudo apt-get install lilypond}}}.
+O pacote Lilypondtool do Jedit pode ser baixado em http://lilypondtool.organum.hu/fileadmin/lilypondtool/LilyPondTool.zip, descompactado e rodado com {{{java -jar jedit/jedit.jar}}}
+
+=== Windows ===
+
+No Windows a instalação do Lilypond depende de baixar um arquivo de instalação para este sistema operacional em http://lilypond.org/web/install/ e instalar.
+O pacote Lilypondtool do Jedit pode ser baixado em http://lilypondtool.organum.hu/fileadmin/lilypondtool/LilyPondTool.zip, descompactado e rodado com um duplo clique em jedit/jedit.jar.

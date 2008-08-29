@@ -1,0 +1,148 @@
+= Página do curso de extensão em Lilypond =
+
+== Descrição ==
+
+O Lilypond é um excelente software livre desenvolvido para tipografia automática de partituras musicais. Assim como softwares proprietários como Sibelius e Finale, sua principal função é a criação e edição de partituras. Ele oferece uma ótima qualidade de impressão, é multiplataforma, expansível, livre e gratuito. O objetivo principal do curso é oferecer aos alunos uma introdução a este software tornando-os aptos a fazerem pequenas edições musicais. Este curso, dirigido a alunos e ex-alunos da Escola de Música da UFBA, oferece treinamento em um tipo de ferramenta muito útil aos músicos, porém ainda não oferecido como disciplina por esta instituição. O curso normalmente tem 5 aulas de 2 horas e é oferecido em formato intensivo durante uma semana. Na atual edição o curso ocorrerá com uma aula semanal. Marcos di Silva, ministrante do curso, tem uma experiência de três anos com o Lilypond e de oito anos com programas de notação musical em geral (Finale). O uso que faz do Lilypond se dá tanto na edição de suas peças quanto na pesquisa em música realizada junto ao grupo de pesquisa Genos.
+
+== Informações Gerais ==
+
+Datas: 29 de agosto a 26 de setembro de 2008, às sextas-feiras
+
+Horário: 9:30 às 11:30 horas (após a reunião do Genos)
+
+Preço: Entrada franca
+
+Local: GenosLab
+
+Inscrições: abertas 
+
+== Inscrição ==
+
+Para inscrever-se no curso envie e-mail para mdsmus@gmail.com
+
+1 - Natanael Ourives
+
+2 - Emerson Anjos
+
+3 - Tom Tavares
+
+4 - Sônia Chada
+
+5 - Valencio Alves da Silva Neto
+
+6 - Yves Tanuri
+
+7 - Pedro Vieira
+
+8 - Felipe André Florentino Silva
+
+== Links para programas ==
+
+Programas principais:
+
+ * Lilypond -- http://lilypond.org
+ * Jedit -- http://www.jedit.org
+ * Jedit com plugin Lilypond -- http://lilypondtool.organum.hu/
+
+Opções adicionais:
+
+ * Ghost View -- http://pages.cs.wisc.edu/~ghost/gv/
+ * Emacs -- http://www.gnu.org/software/emacs/
+ * Auctex -- http://www.gnu.org/software/auctex/
+
+=== Instalação ===
+
+A instalação dos programas é diferenciada nos sistemas Linux e Windows:
+
+==== Linux ====
+
+A instalação é mais fácil e rápida através do uso de um terminal. Uma vez aberto o terminal basta seguir as instruções seguintes:
+
+ * Lilypond: É necessário baixar um [http://download.linuxaudio.org/lilypond/binaries/linux-x86/lilypond-2.10.33-1.linux-x86.sh arquivo de instalação] e depois executar este arquivo. Os comandos para baixar e instalar seguem abaixo:
+{{{
+wget http://download.linuxaudio.org/lilypond/binaries/linux-x86/lilypond-2.10.33-1.linux-x86.sh
+}}}
+{{{
+sudo sh lilypond-2.10.33-1.linux-x86.sh
+}}}
+ * Emacs, Auctex, Jedit, GV e Timidity: Em distribuição baseada em Debian basta executar o comando:
+{{{
+sudo aptitude install emacs auctex jedit gv timidity
+}}}
+
+==== Windows ====
+
+Para a instalação do Lilypond e Jedit é necessário baixar e executar os arquivos disponíveis nos links abaixo:
+
+ * Lilypond -- http://download.linuxaudio.org/lilypond/binaries/mingw/lilypond-2.10.33-1.mingw.exe
+ * Jedit (editor para programação) -- http://prdownloads.sourceforge.net/jedit/jedit4.3pre10install.exe
+  Em alguns casos é necessário a instalação do java que pode ser encontrado em:
+  http://javadl.sun.com/webapps/download/AutoDL?BundleId=11291
+
+ * Emacs (editor para programação) -- Para instalar o Emacs é necessário descompactar o arquivo abaixo em uma pasta. O conteúdo desta pasta já é o programa "instalado".
+  ftp://ftp.gnu.org/gnu/emacs/windows/emacs-22.2-bin-i386.zip
+
+ * Ghost View para Windows (visualizador) -- Para instalar o Ghost View para Windows é preciso descompactar todos os arquivos do link abaixo em uma pasta e rodá-los.
+  http://www.seas.ucla.edu/~ee5cta/ghostView/
+
+== Documentação e tutoriais ==
+
+O site oficial do Lilypond oferece uma documentação completa do software e um bom tutorial.
+
+http://lilypond.org/doc/v2.10/Documentation/
+
+Uma boa maneira de entender como o Lilypond funciona é através do site abaixo:
+
+http://lilypond.org/web/switch/howto
+
+Há um tutorial em português escrito por Erasmo Fernandes:
+
+http://erasmo.info/lilypond/tutorial/
+
+== Aula 1 ==
+
+ CursoLilypondAula1
+
+ * Lilypond e formato ly: software e sintaxe.
+ * Softwares necessários e ''modus operandi'' do Lilypond.
+ * Exemplos de operações avançadas com o Lilypond.
+ * Um pouco de sintaxe: notas, acidentes, ritmo/duração, pausa,  silêncio, articulação, dinâmica, metrônomo e comando \relative.
+ * Página do projeto, documentação, tutoriais e listas de discussão.
+ * Instalação do Lilypond e do editor Jedit no Linux e Windows.
+
+== Aula 2 ==
+
+ * Diferenças entre software livre e software proprietário: liberdade e desenvolvimento.
+ * O papel do tipógrafo musical, problemas com softwares de edição de partituras e tipografia automática no Lilypond.
+ * Conceito de wysiwyg e diferenças entre Lilypond e outros softwares de edição de partituras.
+ * Comentários no .ly.
+ * Estrutura geral de um arquivo .ly.
+ * Comando $\backslash$version
+ * Elementos musicais: ligaduras, colchetes, clave, armadura de clave, compasso, simultaneidade (acordes) e quiálteras
+
+== Aula 3 ==
+
+ * Repetições
+ * Elementos musicais: anacruse, barra de compasso, metrônomo, dedilhado, tablatura, lyrics, cifra, baixo cifrado.
+ * Simultaneidade (polifonia)
+ * Textos
+
+== Aula 4 ==
+
+ * Estrutura geral do arquivo para conter vários instrumentos.
+ * Abstraindo música em variáveis: utilidade e sintaxe.
+ * \book, \score, \new staff, \new voice, nomes dos instrumentos, midi.
+ * Agrupamento de instrumentos em chaves e colchetes.
+
+== Aula 5 ==
+
+ * Inkscape
+ * OOoLilypond
+ * Lytex
+ * Outras ferramentas do Lilypond.
+
+= Exemplos de arquivos =
+
+Exemplos de arquivos e outras questões sobre o Lilypond estão no Handbook do Genos:
+
+http://www.genos.mus.br/handbook/
