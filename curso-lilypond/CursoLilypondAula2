@@ -1,0 +1,92 @@
+= Curso Lilypond - Aula 02 =
+Conteúdo da aula 2
+
+== Questões conceituais ==
+
+=== Software livre x proprietário ===
+
+==== Software livre ====
+(fonte: [http://pt.wikipedia.org/wiki/Software_proprietário Wikipedia])
+
+Software livre, segundo a definição criada pela Free Software Foundation é qualquer programa de computador que pode ser usado, copiado, estudado, modificado e redistribuído sem nenhuma restrição. A liberdade de tais diretrizes é central ao conceito, o qual se opõe ao conceito de software proprietário, mas não ao software que é vendido almejando lucro (software comercial). A maneira usual de distribuição de software livre é anexar a este uma licença de software livre, e tornar o código fonte do programa disponível.
+
+==== Software proprietário ====
+(fonte: [http://pt.wikipedia.org/wiki/Software_livre Wikipedia])
+
+Software proprietário ou não livre é aquele cuja cópia, redistribuição ou modificação são em alguma medida proibidos pelo seu criador ou distribuidor. A expressão foi cunhada em oposição ao conceito de software livre.
+
+Normalmente, a fim de que se possa utilizar, copiar, ter acesso ao código-fonte ou redistribuir, deve-se solicitar permissão ao proprietário, ou pagar para poder fazê-lo: será necessário, portanto, adquirir uma licença, tradicionalmente onerosa, para cada uma destas ações.
+
+=== O tipógrafo musical ===
+(ver http://lilypond.org/web/about/automated-engraving/)
+
+ * Cria moldes em metal para imprimir música
+ * Estuda a fundo notação musical
+ * Para ter experiência precisa estudar por 5 anos e trabalhar por mais 5
+ * Tipografia é trabalho do tipógrafo. Músicos preferem tocar/compor
+
+=== Wysiwyg e texto ===
+
+Wysiwyg significa &ldquo;What you see is what you get&rdquo;. Programas dessa natureza têm uma interface na qual se vê o resultado final do trabalho enquanto se edita. (ver exemplo em http://pt.wikipedia.org/wiki/WYSIWYG). O Lilypond não é wysiwyg. É necessário escrever um código em formato de texto puro para gerar a partitura.
+
+== Mais sintaxe ==
+
+=== Comentários no .ly ===
+
+Comentários são linhas não interpretadas pelo programa. No Lilypond todo símbolo '%' é um comentário.
+
+{{{
+% isto é um comentário no lilypond
+% o código abaixo funciona normalmente
+{
+  c4 d e f
+}
+}}}
+
+Comentários servem tanto para fazer anotações ou lembretes no arquivo quanto para fazer testes para encontrar problemas. Se um código grande possui um problema podemos comentá-lo inteiro e ir testando cada pequeno trecho até encontrar o erro.
+
+=== Estrutura geral de um arquivo .ly ===
+
+Um arquivo .ly possui vários elementos por padrão. Um código simples como {{{ { c } }}} insere por padrão o pentagrama, a oitava, a clave, a fórmula de compasso e a duração da nota. Códigos mais complexos exigem uma estrutura específica:
+
+{{{
+%% este comando define o que contém na partitura
+\score {
+       %% o comando abaixo define o pentagrama
+       \new Staff {
+            %% aqui vão as notas
+       }
+}
+}}}
+
+Para incorporar o MIDI a estrutura é:
+
+{{{
+%% este comando define o que contém na partitura
+\score {
+       %% o comando abaixo define o pentagrama
+       \new Staff {
+            %% aqui vão as notas
+       }
+       \midi { }
+       \layout { }
+}
+}}}
+
+=== Template para canção ===
+
+Uma canção pode ser escrita com uma codificação como:
+
+{{{
+%% inserir código para canção
+}}}
+
+=== Mais comandos ===
+
+ * Comando version
+ * ligaduras
+ * colchetes
+ * clave
+ * armadura de clave
+ * compasso
+ * simultaneidade (acordes) e quiálteras
