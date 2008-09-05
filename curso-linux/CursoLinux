@@ -1,0 +1,151 @@
+= Curso introdutório ao sistema operacional Linux =
+
+== Informações gerais ==
+
+Datas: 18 a 22 de agosto de 2008
+
+Horário: 17 às 19 horas
+
+Preço: Entrada franca
+
+Local: GenosLab
+
+Inscrições: abertas
+
+== Inscritos ==
+
+1 - Alexandre Espinheira - PPPFP
+
+2 - Valencio Alves da Silva Neto - PPPPP
+
+3 - Natanael de Souza Ourives - PPPPP
+
+4 - Emerson Soares dos Anjos - FPPPP
+
+5 - Juracy Cardoso - PPPPP
+
+6 - Yves Tanuri - PPPFP
+
+7 - Kevin Tanuri - PPPPP
+
+8 - Wallace José Silva dos Santos - PPFPP
+
+9 - Rodrigo Leal - FPPPP
+
+10 - Pedro Vieira - PPPPP
+
+11 - Lucas - FPFFF
+
+== Distribuições ==
+
+Durante o curso serão utilizadas as distribuições [http://www.archlinux.org ArchLinux] e [http://www.ubuntu-br.org/ Ubuntu] 8.04.
+
+A distribuição ArchLinux é a utilizada no GenosLab, e a distribuição Ubuntu é uma boa opção para iniciantes em Linux.
+
+=== LiveCD do Ubuntu ===
+
+A imagem do live cd do Ubuntu 8.04 pode ser conseguida neste link: (verifique se seu computador tem 64bits para escolher o arquivo certo
+
+http://ubuntu.c3sl.ufpr.br/releases/hardy/
+
+== Programa do Curso ==
+
+ * Uso básico do sistema: manipulação de arquivos, gravação de CD e
+DVD, uso da internet e email, ferramentas de escritório (Openoffice)
+e mensagem instantânea.
+ * Instalação de programas através do gerenciador de pacotes
+Synaptic. Instalação e uso de dispositivos: impressoras, pendrive,
+cd-rom, etc. Uso de ''live-cd''.
+ * História do Linux, vantagens, software livre, documentação e
+comunidade, distribuições, ambientes gráficos e customização.
+ * Instalação e uso do terminal (linha de comando).
+
+== Links ==
+
+[http://del.icio.us/disilva/curso-linux Links Curso Linux]
+
+== Softwares ==
+
+Muitos dos softwares listados abaixo já estão inclusos no Ubuntu. Para a instalação de todos exceto o jabref basta usar o comando abaixo:
+{{{
+sudo aptitude install openoffice koffice inkscape gimp pidgin kopete audacity rosegarden \
+ardour xine mplayer kwifimanager gedit jedit emacs kmymoney2 qdvdauthor k3b \
+aspell-pt-br ispell solfege
+}}}
+
+=== Escritório ===
+
+[http://www.broffice.org/ OpenOffice]
+
+[http://www.koffice.org/ KOffice]
+
+=== Gráficos ===
+
+[http://www.inkscape.org/ Inkscape]
+
+[http://www.gimp.org/ Gimp]
+
+=== Internet ===
+
+[http://www.pidgin.im/ Pidgin]
+
+[http://kopete.kde.org/ Kopete]
+
+=== Áudio ===
+
+[http://audacity.sourceforge.net/ Audacity]
+
+[http://www.hydrogen-music.org/ Hydrogen]
+
+[http://www.rosegardenmusic.com/ Rosegarden]
+
+[http://ardour.org/ Ardour]
+
+=== Players ===
+
+[http://xinehq.de/ Xine]
+
+[http://www.mplayerhq.hu/design7/news.html Mplayer]
+
+=== Rede ===
+
+[http://kwifimanager.sourceforge.net/ KWifiManager]
+
+
+=== Editores de texto puro ===
+
+[http://www.gnome.org/projects/gedit/ Gedit]
+
+[http://www.jedit.org/ Jedit]
+
+[http://www.gnu.org/software/emacs/ Emacs]
+
+=== LateX e Bibtex ===
+
+[http://jabref.sourceforge.net/ Jabref]
+
+=== Controle financeiro ===
+
+[http://kmymoney2.sourceforge.net/index-home.html Kmymoney]
+
+=== Criação de vídeo, dvd ===
+
+[http://linux.softpedia.com/progDownload/ManDVD-Download-12812.html/ ManDVD]
+
+[http://qdvdauthor.sourceforge.net/ Qdvdauthor]
+
+[http://www.kinodv.org/ Kino]
+
+=== Gravador de cd, dvd ===
+
+[http://k3b.org/ K3b]
+
+=== Corretores ortográficos ===
+
+[http://www.gnu.org/software/ispell/ispell.html Ispell]
+
+[http://aspell.net/ Aspell]
+
+=== Educativos ===
+
+[http://www.solfege.org/ Gnu Solfege]
