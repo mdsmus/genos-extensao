@@ -3,6 +3,9 @@ Conteúdo da aula 3
 
 == Repetições ==
 
+ * Comando repeat
+ * Repetições formais (casa 1, casa 2, etc)
+
 === Mais sintaxe ===
 
  * anacruse
@@ -18,10 +21,18 @@ Conteúdo da aula 3
 
 ==== Polifonia ====
 
+ * << >> e new Voice
+
 ==== Múltiplos instrumentos ====
+
+ * << >> e new Staff
 
 === Texto ===
 
 ==== Letra de música  ====
 
+ * addlyrics
+
 ==== Anotações na partitura ====
+
+ * markup
