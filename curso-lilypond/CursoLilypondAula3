@@ -23,6 +23,25 @@ Conteúdo da aula 3
 
  * << >> e new Voice
 
+{{{
+{
+  \relative c'' {
+    %% para polifonia deve-se usar << { voz 1 } \\ { voz 2 } >>
+    <<
+      %% aqui a voz de cima
+      \relative c'' {
+        <a c>8 <a c> <a c> <a c>
+      }
+      \\
+      %% aqui a voz de baixo
+      \relative c' {
+        d4 d
+      }
+    >>
+  }
+}
+}}}
+
 ==== Múltiplos instrumentos ====
 
  * << >> e new Staff
