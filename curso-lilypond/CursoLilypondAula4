@@ -1,0 +1,83 @@
+= Curso Lilypond - Aula 04 =
+Conteúdo da aula 4
+
+== Repetições ==
+ * volta
+ * unfold
+ * tremolo
+ * percent
+
+=== Volta ===
+
+Repeat Volta serve para colocar as indicações de ritornelo com a possibilidade da volta com alternância de casa 1, 2, 3, etc.
+Sintaxe:
+{{{
+\repeat volta 2 { ...music...}
+}}}
+
+"2" é o número de voltas do trecho musical.
+
+=== unfold ===
+
+Repeat unfold é usado quando se faz necessário repetir um trecho várias vezes.
+Sintaxe:
+{{{
+\repeat unfold 5 { ...music... }
+}}}
+
+"5" é o número de vezes que o trecho musical será repetido.
+
+=== tremolo ===
+
+Pode ser usado em uma ou mais notas.
+Sintaxe com uma nota:
+{{{
+
+\repeat "tremolo" 2 c32
+
+}}}
+
+Esse último pode ser feito também digitando apenas:
+{{{
+c2:32
+}}}
+
+Sintaxe com duas notas:
+{{{
+\repeat "tremolo" 8 {c16 d16}
+}}}
+
+=== percent ===
+
+É utilizado para inserir sinais de repetição do evento anterior. Esse evento pode ser uma nota, um compasso ou até dois compassos.
+Sintaxe:
+
+{{{
+
+\repeat "percent" 4 {c4}
+
+}}}
+
+
+== Sinais de marcação ==
+
+ * Segno
+ Sintaxe:
+{{{
+\mark \markup { \musicglyph #"scripts.segno" }
+}}}
+
+Ex.:
+c1\mark \markup { \musicglyph #"scripts.segno" }
+
+
+ * Coda
+ Sintaxe:
+{{{
+\mark \markup { \musicglyph #"scripts.coda" }
+}}}
+
+Ex.:
+c1\mark \markup { \musicglyph #"scripts.coda" }
+
+
