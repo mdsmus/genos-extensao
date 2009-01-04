@@ -1,0 +1,239 @@
+\documentclass[11pt,letterpaper,brazil]{article}
+%\usepackage[draft,rcs]{artigos}
+\usepackage{artigos}
+\usepackage{kchicago}
+
+\begin{document}
+\selectlanguage{brazil}
+%\rcsInfo $Id: projeto.tex,v 1.6 2003/03/13 17:42:20 kroger Exp $
+
+\title{Curso intermediário de Csound}
+\author{Coordenador: Prof. Ricardo Bordini\\
+  Professor do curso: Pedro Kröger \\
+  Assistente: Dennis Leoni}
+\maketitle
+
+\begin{abstract}
+O Csound pode ser considerado atualmente como um dos melhores e mais
+poderosos programas para síntese sonora, ele é excelente para o design
+de instrumentos, é multi-plataforma, tem o código fonte aberto, e seu
+formato não é proprietário.
+
+O objetivo do curso é continuar os tópicos iniciados nos cursos
+``Introdução ao Csound'' e ``Introdução à música eletroacústica''
+(ministrados por Pedro Kröger em 2001 nos Seminários de Música da
+UFBA), fornecendo aos alunos um conhecimento mais avançado do Csound.
+Além disso, rever os conceitos e técnicas básicas de síntese sonora,
+entender a teoria básica e limitações da representação digital do som,
+rever os conceitos fundamentais de computação e programação, aprender
+a linguagem de síntese Csound e como usá-la. O curso terá 15 aulas de
+2 horas (uma aula por semana).
+
+O curso se dirige aos alunos de composição musical, mas alunos de
+outras áreas (inclusive não musicais, como ciência da computação) são
+bem vindos.  Os alunos devem estar cursando ou ter concluído o curso
+superior.  O conhecimento básico de como utilizar um sistema
+operacional (Windows, MacOs, Linux) é requerido.
+
+Pedro Kröger tem trabalhado com o Csound há cerca de sete anos
+elaborando não apenas composições, mas também utilizando seu potencial
+para palestras didáticas, além de desenvolver tutoriais e ferramentas.
+Recentemente ele contribuiu com o desenvolvimento da versão
+``não-oficial'' do Csound para Linux, mantida por Nicola Bernardini.
+Sua tese de doutorado está centrada no desenvolvimento de tecnologias
+e ferramentas para expandir o Csound.
+\end{abstract}
+
+\thispagestyle{empty}
+\section{Introdução}
+O Csound tem se tornado um dos mais populares programas para síntese
+sonora do mundo. Constantemente novos recursos são adicionados e
+aperfeiçoados, como integração com \sigla{midi}, execução em tempo
+real, além de novas facilidades, tanto na construção de orquestras
+quanto partituras.
+
+A história do Csound inicia com o programa \prog{Music 4}, escrito no
+Bell Telephone Laboratories por Max Mathews no início de 1960. Algumas
+adições foram feitas por Godfrey Winham, gerando o \prog{Music 4B}, e
+Barry Vercoe, criando em 1968 o \prog{Music 360}. Em 1973 Vercoe criou
+o \prog{Music 11} que mais tarde se tornaria o Csound. Em 1991 foram
+acrescidos ao Csound \opc{opcodes} para \eng{phase vocoder},
+\sigla{fof}, e tipos de dados espectrais. No ano seguinte foram
+introduzidos os conversores e as unidades de controle \sigla{midi},
+permitindo ao Csound ler arquivos \sigla{midi} como partitura ou
+receber dados de teclados musicais externos. Desde então as unidades
+de \sigla{midi}, análise, conversão, e tempo-real têm crescido e sido
+aperfeiçoadas. \cite[1-1--1-2]{vercoe:manual}
+
+O Csound pode ser considerado atualmente como um dos melhores e mais
+poderosos programas para síntese sonora.  Diversos fatores contribuem
+para isso:
+\begin{description}
+\item [multi-plataforma] Existem versões do {Csound} para praticamente
+  qualquer plataforma: PC, Mac, Unix, Alpha Digital, Atari, BeOs, etc.
+\item [código fonte aberto] Seu código fonte é distribuído através da
+  internet, gratuitamente. Com isso diversas pessoas no mundo todo
+  auxiliam no seu desenvolvimento, o que contribui para seu rápido
+  crescimento. Além disso qualquer um pode modificá-lo e alterá-lo de
+  acordo com suas preferências e necessidades.
+\item [formato não-proprietário] A entrada de dados é feita através de
+  arquivos de texto puro, o que garante uma maior longevidade e
+  portabilidade dos dados.
+\item [\eng{design} de instrumentos] Ele é ímpar para testar todos os
+  processos de síntese sonora, assim como é muito útil na criação de
+  unidades para processamento sonoro como \eng{reverbs}, \eng{delays},
+  e outros.
+\end{description}
+
+
+\section{Sobre o ministrante} 
+
+Pedro Kröger tem trabalhado com o Csound há cerca de sete anos
+elaborando não apenas composições
+\cite{kroger01:amore2,kroger01:spiritus,kroger00:interludios}, mas também
+utilizando seu potencial para palestras didáticas
+\cite{kroger99:sistemas}, além de desenvolver tutoriais
+\cite{kroger00:organizando} e ferramentas
+\cite{kroger98:tksounder,kroger98:ksounder}. Recentemente ele contribuiu
+com o desenvolvimento da versão ``não-oficial'' do Csound para Linux,
+mantida por Nicola Bernardini. Sua tese de doutorado está centrada no
+desenvolvimento de tecnologias e ferramentas para expandir o Csound.
+
+\section{Justificativa}
+
+Disciplinas de graduação envolvendo ``música computacional'' ou
+``informática em música'' são cada vez mais comuns em países como
+Estados Unidos, Inglaterra, França, Canadá, etc. Já que o curso de
+graduação da Escola de Música da UFBA não oferece disciplinas
+relacionadas à música eletroacústica faz-se necessário complementar o
+conhecimento dos alunos da área de composição com cursos de extensão.
+
+\section{Objetivos}
+Continuar os tópicos iniciados nos cursos ``Introdução ao Csound'' e
+``Introdução à música eletroacústica'' (ministrados por Pedro Kröger
+em 2001 nos Seminários de Música da UFBA), fornecendo aos alunos um
+conhecimento mais avançado do Csound. Além disso:
+
+\begin{itemize}
+\item Rever os conceitos e técnicas básicas de síntese sonora 
+\item Entender a teoria básica e limitações da representação digital
+  do som
+\item Rever os conceitos fundamentais de computação e programação
+\item Aprender a linguagem de síntese Csound e como usá-la
+\end{itemize}
+
+\section{Conteúdo programático} 
+
+O curso constará de 15 aulas cujo conteúdo programático será como
+segue:
+
+\begin{enumerate}
+\item Introdução ao áudio digital \\
+  Introdução ao Csound I: instalação, configuração, e execução
+\item Introdução ao Csound II: estrutura da linguagem
+\item Mais sobre a Orquestra e a Partitura \\
+  Como estudar orquestra e partituras do Csound
+\item Síntese Aditiva
+\item Síntese por modulação: freqüência modulada (FM) e amplitude
+  modulada (AM)
+\item FM complexa \\
+  Mapeamento de parâmetros
+\item Formatos de arquivo de áudio \\
+  Orquestra que usa arquivos de áudio como entrada
+\item Csound e MIDI
+\item Filtros
+\item Delay digital
+\item O algoritmo Karplus-Strong \\
+  Reinicialização em Csound
+\item Síntese granular
+\item Filtro de formantes (FOF: \textit{fonctions d'onde formantique})
+\item Análise e resíntese I:
+  introdução a análise Hetrodyne \\
+  síntese LPC
+\item Análise e resíntese I:
+  introdução a teoria de Fourier \\
+  introdução a Convolução \\
+\end{enumerate} 
+
+\section{Metodologia}
+% Indicar os procedimentos previstos para a condução das atividades e
+% aulas para chegar aos objetivos propostos.  Especificar com que
+% material irá trabalhar e descrever os métodos e dinâmicas que serão
+% utilizados.
+
+Cada aula será dividida em três blocos principais; no primeiro serão
+apresentados aspectos teóricos e gerais do tópico em questão; no
+segundo bloco será visto como esses aspectos podem ser implementados
+no Csound; no último bloco serão corrigidos exercícios e dúvidas
+individuais esclarecidas.
+
+As aulas serão ministradas no estúdio de música eletroacústica UTI e
+utilizarão de seu equipamento em beneficio do curso. Um CD com todos
+os programas necessários  (programas de livre distribuição
+como o próprio Csound) será distribuído no início do curso a cada
+aluno.
+
+Ao final de cada aula serão propostos exercícios e tarefas para
+aprofundar o conhecimento adquirido. As tarefas poderão ser feitas em
+casa, no caso dos alunos que possuem computador, ou no Laboratório de
+Informática da Graduação, onde serão instalados os programas
+necessários.
+
+Um fórum na internet (em \url{www.pedrokroeger.net/csound}) foi criado
+onde os alunos podem tirar dúvidas e trocar sugestões entre si.
+ 
+\section{Referências bibliográficas para o curso}
+A principal fonte bibliográfica será uma apostila elaborada
+especialmente para o curso. Contudo serão recomendadas a leitura de:
+
+\begin{enumerate}
+\item Dodge and Jerse, Computer Music: Synthesis, Composition, and
+  Performance (2nd Edition) (New York: Schirmer Books, 1997)
+\item Boulanger, Richard: The CSound Book (Cambridge: MIT Press, 2000)
+ \end{enumerate}
+
+\section{Clientela}
+O curso se dirige aos alunos de composição, mas alunos de outras áreas
+(inclusive não musicais, como ciência da computação) são bem vindos.
+Os alunos devem estar cursando ou ter concluído o curso superior.
+  
+Os alunos deverão possuir algum conhecimento básico de como utilizar
+um sistema operacional (Windows, MacOs, Linux) já que tais
+conhecimentos \textbf{não} serão vistos durante o curso.
+
+\section{Duração}
+
+O curso terá 15 aulas de 2 horas.
+ 
+\section{Vagas}
+As turmas não devem ultrapassar a quantidade máxima de 8 e mínima de 3
+alunos.
+
+\section{Material necessário}
+\label{sec:material}
+
+Para o curso serão necessários os seguintes equipamentos:
+
+Para a sala de aula:
+\begin{enumerate}
+\item Equipamento do estúdio UTI
+\item Datashow ou projetor similar
+\item ao menos 1 computador com placa de som (laboratório da
+  graduação)
+\item 8 cadeiras (o estúdio UTI não as tem)
+\item Lousa e giz (UTI)
+\end{enumerate}
+
+Para os alunos:
+
+\begin{enumerate}
+\item cópia e encadernação da apostila [100-200 páginas]
+\item cópia do CD que acompanha a apostila
+\item cópia do CD com programas
+\item cópia do CD com exemplos
+\end{enumerate}
+
+\bibliographystyle{kchicago}
+\bibliography{strings,computer-music,computer-science,programas,kroger,kroger-outros,procurar,mailing-lists}
+
+\end{document}
