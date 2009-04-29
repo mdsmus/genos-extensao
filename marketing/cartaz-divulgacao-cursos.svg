@@ -4009,16 +4009,6 @@
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient9966"
-       id="linearGradient4547"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.631049,0,0,0.631049,-145.65145,682.54612)"
-       x1="-320.04376"
-       y1="219.625"
-       x2="-220.05788"
-       y2="299.40738" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient9966"
        id="linearGradient4621"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(6.328947,0,0,6.328947,2086.4033,-1114.7172)"
@@ -4068,26 +4058,6 @@
        y2="776.70563" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient9966"
-       id="linearGradient4812"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(6.328947,0,0,6.328947,2086.4033,-1114.7172)"
-       x1="-320.04376"
-       y1="219.625"
-       x2="-220.05788"
-       y2="299.40738" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3975"
-       id="linearGradient4815"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0,0.944474)"
-       x1="317.37906"
-       y1="80.143555"
-       x2="317.37906"
-       y2="1203.3481" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient7718"
        id="linearGradient4825"
        gradientUnits="userSpaceOnUse"
@@ -4106,6 +4076,36 @@
        y1="19.472757"
        x2="724.79565"
        y2="217.69766" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9966"
+       id="linearGradient3138"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(6.328947,0,0,6.328947,2086.4033,-1114.7172)"
+       x1="-320.04376"
+       y1="219.625"
+       x2="-220.05788"
+       y2="299.40738" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3975"
+       id="linearGradient3141"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,0.944474)"
+       x1="317.37906"
+       y1="80.143555"
+       x2="317.37906"
+       y2="1203.3481" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9966"
+       id="linearGradient3146"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.631049,0,0,0.631049,-145.65145,682.54612)"
+       x1="-320.04376"
+       y1="219.625"
+       x2="-220.05788"
+       y2="299.40738" />
   </defs>
   <sodipodi:namedview
      inkscape:window-height="783"
@@ -4119,7 +4119,7 @@
      bordercolor="#666666"
      pagecolor="#ffffff"
      id="base"
-     inkscape:zoom="0.54448935"
+     inkscape:zoom="0.54258886"
      inkscape:cx="372.04724"
      inkscape:cy="526.18109"
      inkscape:window-x="0"
@@ -4129,7 +4129,7 @@
      inkscape:guide-bbox="true"
      showgrid="false" />
   <g
-     id="g4829">
+     id="g3379">
     <g
        transform="translate(0,65.8446)"
        id="g5037" />
@@ -4147,11 +4147,11 @@
        height="1055.1462"
        width="754.47131"
        id="use1895"
-       style="fill:url(#linearGradient4815);fill-opacity:1;stroke:#7e6186;stroke-width:0.77598423;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:url(#linearGradient3141);fill-opacity:1;stroke:#7e6186;stroke-width:0.77598423;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="path1980"
        d="M 454.1281,275.27842 C 220.82444,304.45952 19.877226,448.82343 68.062346,611.8993 C 97.245856,710.66633 251.3816,810.682 411.6055,771.50776 L 411.6055,772.29806 C 442.3562,763.32991 471.7361,753.15324 499.4197,741.64267 C 686.2517,663.95812 840.9563,365.08031 452.9415,376.73931 L 449.1836,522.30512 C 523.3497,517.92545 494.7354,585.09312 460.2593,602.40561 C 366.8311,649.32244 241.6231,597.26864 202.55246,536.9408 C 132.66445,429.0286 255.7988,313.90998 415.5612,281.80516 C 428.2185,279.26164 441.1234,277.11769 454.1281,275.4762 L 454.1281,275.27842 z"
-       style="fill:url(#linearGradient4812);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.34530589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:url(#linearGradient3138);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.34530589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
        transform="translate(15.583925,-14.934595)"
        id="g4650">
@@ -4199,234 +4199,347 @@
            id="tspan9749"
            style="font-size:6.14044666px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;font-family:Georgia">marcos di silva</tspan></text>
     </g>
+    <path
+       id="path9135"
+       d="M 392.52113,980.37272 L 392.34415,969.15421"
+       style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.62069267;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
-       id="g4222">
+       transform="translate(670.71557,107.69184)"
+       id="g3981">
       <path
-         style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.62069267;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 392.52113,980.37272 L 392.34415,969.15421"
-         id="path9135" />
-      <g
-         id="g3981"
-         transform="translate(670.71557,107.69184)">
-        <path
-           id="path9141"
-           d="M -308.4029,821.1403 C -331.66523,824.0499 -351.70135,838.44419 -346.89689,854.70422 C -343.98705,864.55212 -328.61843,874.5245 -312.64276,870.61852 L -312.64276,870.69732 C -309.57666,869.80312 -306.64724,868.78842 -303.88695,867.64072 C -285.25824,859.89492 -269.83289,830.0943 -308.52122,831.2568 L -308.89591,845.77093 C -301.50093,845.33424 -304.35401,852.03142 -307.79157,853.75762 C -317.10714,858.43562 -329.59143,853.24542 -333.4871,847.23023 C -340.45552,836.47048 -328.17799,824.99219 -312.24835,821.79107 C -310.98631,821.53746 -309.69958,821.32369 -308.4029,821.16002 L -308.4029,821.1403 z"
-           style="fill:url(#linearGradient4547);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.34530589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-        <text
-           sodipodi:linespacing="125%"
-           transform="scale(1.1794929,0.847822)"
-           id="text9147"
-           y="1051.217"
-           x="-286.81534"
-           style="font-size:11.01815605px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:URW Gothic L"
-           xml:space="preserve"><tspan
-             y="1051.217"
-             x="-286.81534"
-             id="tspan9149"
-             sodipodi:role="line">GENOS</tspan></text>
-      </g>
-      <g
-         id="g5027"
-         transform="matrix(1.281645,0,0,1.281645,-398.39997,-265.25207)"
-         style="fill:#000000">
-        <text
-           sodipodi:linespacing="125%"
-           id="text3897"
-           y="806.94958"
-           x="666.67261"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           xml:space="preserve"><tspan
-             id="tspan3901"
-             y="806.94958"
-             x="666.67261"
-             sodipodi:role="line">local: genoslab (escola de música)</tspan></text>
-        <text
-           sodipodi:linespacing="125%"
-           id="text3919"
-           y="826.93451"
-           x="665.40698"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           xml:space="preserve"><tspan
-             id="tspan3921"
-             y="826.93451"
-             x="665.40698"
-             sodipodi:role="line">horário: 17 às 19 horas</tspan></text>
-        <text
-           sodipodi:linespacing="125%"
-           id="text3923"
-           y="844.66357"
-           x="665.40698"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           xml:space="preserve"><tspan
-             id="tspan3925"
-             y="844.66357"
-             x="665.40698"
-             sodipodi:role="line">carga horária: 10 horas</tspan></text>
-        <text
-           sodipodi:linespacing="125%"
-           id="text3927"
-           y="863.43268"
-           x="665.40698"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           xml:space="preserve"><tspan
-             id="tspan3929"
-             y="863.43268"
-             x="665.40698"
-             sodipodi:role="line">informações: http://wiki.genos.mus.br/cursos</tspan></text>
-      </g>
-      <g
-         id="g2203"
-         transform="translate(43.29927,-1.88258)"
-         style="fill:#000000">
-        <g
-           id="g2196"
-           style="fill:#000000">
-          <text
-             xml:space="preserve"
-             style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-             x="672.78619"
-             y="922.388"
-             id="text2149"
-             sodipodi:linespacing="125%"><tspan
-               sodipodi:role="line"
-               x="672.78619"
-               y="922.388"
-               id="tspan2151">universidade federal da bahia</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-             x="672.78619"
-             y="938.57672"
-             id="text2157"
-             sodipodi:linespacing="125%"><tspan
-               sodipodi:role="line"
-               id="tspan2165"
-               x="672.78619"
-               y="938.57672">escola de música</tspan><tspan
-               sodipodi:role="line"
-               id="tspan2167"
-               x="672.78619"
-               y="953.57672" /></text>
-        </g>
-        <g
-           id="g2187"
-           style="fill:#000000">
-          <text
-             xml:space="preserve"
-             style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-             x="673.02057"
-             y="969.6391"
-             id="text3903"
-             sodipodi:linespacing="125%"><tspan
-               sodipodi:role="line"
-               x="673.02057"
-               y="969.6391"
-               id="tspan3915">realização: genos</tspan><tspan
-               sodipodi:role="line"
-               x="673.02057"
-               y="984.6391"
-               id="tspan2169">grupo de pesquisa em computação musical</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-             x="673.19049"
-             y="1001.4888"
-             id="text2153"
-             sodipodi:linespacing="125%"><tspan
-               sodipodi:role="line"
-               x="673.19049"
-               y="1001.4888"
-               id="tspan2155">http://wiki.genos.mus.br/</tspan></text>
-          <text
-             xml:space="preserve"
-             style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-             x="672.84479"
-             y="1017.9973"
-             id="text2161"
-             sodipodi:linespacing="125%"><tspan
-               sodipodi:role="line"
-               x="672.84479"
-               y="1017.9973"
-               id="tspan2163">coordenação: marcos di silva</tspan></text>
-        </g>
-      </g>
-      <g
-         id="g4980"
-         transform="translate(0,3.2339245e-5)"
-         style="fill:#000000">
-        <text
-           sodipodi:linespacing="125%"
-           id="text3679"
-           y="97.456329"
-           x="77.989777"
-           style="font-size:54.76308823px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           xml:space="preserve"><tspan
-             y="97.456329"
-             x="77.989777"
-             id="tspan3681"
-             sodipodi:role="line">computação musical</tspan></text>
-        <text
-           sodipodi:linespacing="125%"
-           id="text5075"
-           y="159.68803"
-           x="115.70058"
-           style="font-size:31.71426582px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           xml:space="preserve"><tspan
-             y="159.68803"
-             x="115.70058"
-             id="tspan5077"
-             sodipodi:role="line">cursos de extensão do genos</tspan></text>
-      </g>
+         style="fill:url(#linearGradient3146);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.34530589;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M -308.4029,821.1403 C -331.66523,824.0499 -351.70135,838.44419 -346.89689,854.70422 C -343.98705,864.55212 -328.61843,874.5245 -312.64276,870.61852 L -312.64276,870.69732 C -309.57666,869.80312 -306.64724,868.78842 -303.88695,867.64072 C -285.25824,859.89492 -269.83289,830.0943 -308.52122,831.2568 L -308.89591,845.77093 C -301.50093,845.33424 -304.35401,852.03142 -307.79157,853.75762 C -317.10714,858.43562 -329.59143,853.24542 -333.4871,847.23023 C -340.45552,836.47048 -328.17799,824.99219 -312.24835,821.79107 C -310.98631,821.53746 -309.69958,821.32369 -308.4029,821.16002 L -308.4029,821.1403 z"
+         id="path9141" />
       <text
          xml:space="preserve"
-         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-         x="606.6394"
-         y="206.83994"
-         id="text3056"
+         style="font-size:11.01815605px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:URW Gothic L"
+         x="-286.81534"
+         y="1051.217"
+         id="text9147"
+         transform="scale(1.1794929,0.847822)"
          sodipodi:linespacing="125%"><tspan
            sodipodi:role="line"
-           id="tspan3058"
-           x="606.6394"
-           y="206.83994">2009.1</tspan></text>
+           id="tspan9149"
+           x="-286.81534"
+           y="1051.217">GENOS</tspan></text>
+    </g>
+    <g
+       id="g3371">
+      <text
+         xml:space="preserve"
+         style="font-size:15.37973976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         x="456.03766"
+         y="780.97083"
+         id="text3897"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="456.03766"
+           y="780.97083"
+           id="tspan3901">local: genoslab (escola de música)</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:15.37973976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         x="454.41556"
+         y="806.58441"
+         id="text3919"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="454.41556"
+           y="806.58441"
+           id="tspan3921">horário: 17 às 19 horas</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:15.37973976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         x="454.41556"
+         y="833.36212"
+         id="text3927"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           x="454.41556"
+           y="833.36212"
+           id="tspan3929">informações: http://wiki.genos.mus.br/cursos</tspan></text>
+    </g>
+    <g
+       style="fill:#000000"
+       transform="translate(43.29927,-1.88258)"
+       id="g2203">
       <g
-         id="g4016">
+         style="fill:#000000"
+         id="g2196">
+        <text
+           sodipodi:linespacing="125%"
+           id="text2149"
+           y="922.388"
+           x="672.78619"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           xml:space="preserve"><tspan
+             id="tspan2151"
+             y="922.388"
+             x="672.78619"
+             sodipodi:role="line">universidade federal da bahia</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text2157"
+           y="938.57672"
+           x="672.78619"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           xml:space="preserve"><tspan
+             y="938.57672"
+             x="672.78619"
+             id="tspan2165"
+             sodipodi:role="line">escola de música</tspan><tspan
+             y="953.57672"
+             x="672.78619"
+             id="tspan2167"
+             sodipodi:role="line" /></text>
+      </g>
+      <g
+         style="fill:#000000"
+         id="g2187">
+        <text
+           sodipodi:linespacing="125%"
+           id="text3903"
+           y="969.6391"
+           x="673.02057"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           xml:space="preserve"><tspan
+             id="tspan3915"
+             y="969.6391"
+             x="673.02057"
+             sodipodi:role="line">realização: genos</tspan><tspan
+             id="tspan2169"
+             y="984.6391"
+             x="673.02057"
+             sodipodi:role="line">grupo de pesquisa em computação musical</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text2153"
+           y="1001.4888"
+           x="673.19049"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           xml:space="preserve"><tspan
+             id="tspan2155"
+             y="1001.4888"
+             x="673.19049"
+             sodipodi:role="line">http://wiki.genos.mus.br/</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text2161"
+           y="1017.9973"
+           x="672.84479"
+           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:125%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+           xml:space="preserve"><tspan
+             id="tspan2163"
+             y="1017.9973"
+             x="672.84479"
+             sodipodi:role="line">coordenação: marcos di silva</tspan></text>
+      </g>
+    </g>
+    <g
+       style="fill:#000000"
+       transform="translate(0,3.2339245e-5)"
+       id="g4980">
+      <text
+         xml:space="preserve"
+         style="font-size:54.76308823px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         x="77.989777"
+         y="97.456329"
+         id="text3679"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3681"
+           x="77.989777"
+           y="97.456329">computação musical</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:31.71426582px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         x="115.70058"
+         y="159.68803"
+         id="text5075"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5077"
+           x="115.70058"
+           y="159.68803">cursos de extensão do genos</tspan></text>
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3056"
+       y="206.83994"
+       x="606.6394"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+       xml:space="preserve"><tspan
+         y="206.83994"
+         x="606.6394"
+         id="tspan3058"
+         sodipodi:role="line">2009.1</tspan></text>
+    <g
+       id="g3353">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3761"
+         y="644.63562"
+         x="65.035637"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="644.63562"
+           x="65.035637"
+           id="tspan3763"
+           sodipodi:role="line">composição eletroacústica</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3765"
+         y="662.57141"
+         x="544.36597"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="662.57141"
+           x="544.36597"
+           id="tspan3767"
+           sodipodi:role="line">guilherme bertissolo</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3769"
+         y="637.98328"
+         x="581.33862"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="637.98328"
+           x="581.33862"
+           id="tspan3771"
+           sodipodi:role="line">8 a 18/jun</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4030"
+         y="664.82727"
+         x="66.238762"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="664.82727"
+           x="66.238762"
+           id="tspan4032"
+           sodipodi:role="line">curso de 20 horas</tspan></text>
+    </g>
+    <g
+       transform="translate(0,-10.718578)"
+       id="g3299">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3211"
+         y="528.32324"
+         x="64.639153"
+         style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           id="tspan3227"
+           y="528.32324"
+           x="64.639153"
+           sodipodi:role="line">trilha sonora para cinema</tspan><tspan
+           id="tspan3231"
+           y="560.82324"
+           x="64.639153"
+           sodipodi:role="line">básico</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3215"
+         y="541.91724"
+         x="587.33569"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="541.91724"
+           x="587.33569"
+           id="tspan3217"
+           sodipodi:role="line">rodrigo garcia</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3219"
+         y="521.3291"
+         x="526.94312"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="521.3291"
+           x="526.94312"
+           id="tspan3221"
+           sodipodi:role="line">12/mai a 30/jun</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3223"
+         y="561.86542"
+         x="580.14038"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="561.86542"
+           x="580.14038"
+           id="tspan3225"
+           sodipodi:role="line">hermilo santana</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3286"
+         y="582.09564"
+         x="66.337395"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         xml:space="preserve"><tspan
+           y="582.09564"
+           x="66.337395"
+           id="tspan3288"
+           sodipodi:role="line">curso de 34 horas</tspan></text>
+    </g>
+    <g
+       transform="translate(0,-9.9131889)"
+       id="g3342">
+      <g
+         id="g3270">
         <text
            xml:space="preserve"
            style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
            x="64.772453"
-           y="350.99823"
+           y="430.99823"
            id="text3099"
            sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
              id="tspan3101"
              x="64.772453"
-             y="350.99823">linux introdutório</tspan></text>
+             y="430.99823">linux introdutório</tspan></text>
         <text
            xml:space="preserve"
            style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="538.02612"
-           y="344.00409"
+           x="594.15308"
+           y="424.00409"
            id="text3109"
            sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
              id="tspan3111"
-             x="538.02612"
-             y="344.00409">30/mar a 3/abr</tspan></text>
+             x="594.15308"
+             y="424.00409">4 a 8/mai</tspan></text>
         <text
            xml:space="preserve"
            style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
            x="573.37573"
-           y="368.59222"
+           y="448.59222"
            id="text3145"
            sodipodi:linespacing="125%"><tspan
              sodipodi:role="line"
              id="tspan3147"
              x="573.37573"
-             y="368.59222">givaldo de cidra</tspan></text>
+             y="448.59222">givaldo de cidra</tspan></text>
       </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         x="66.83886"
+         y="453.91751"
+         id="text3312"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3314"
+           x="66.83886"
+           y="453.91751">curso de 10 horas</tspan></text>
+    </g>
+    <g
+       transform="translate(0,-1.1832764e-5)"
+       id="g3329">
       <g
          id="g3071"
-         transform="translate(0,141.25698)"
+         transform="translate(0,-37.228973)"
          style="fill:#000000">
         <text
            xml:space="preserve"
@@ -4473,53 +4586,17 @@
              x="573.37573"
              y="382.45779">givaldo de cidra</tspan></text>
       </g>
-      <g
-         id="g4034">
-        <text
-           xml:space="preserve"
-           style="font-size:26px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="65.035637"
-           y="624.63562"
-           id="text3761"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3763"
-             x="65.035637"
-             y="624.63562">composição eletroacústica</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="544.36597"
-           y="642.57141"
-           id="text3765"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3767"
-             x="544.36597"
-             y="642.57141">guilherme bertissolo</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="569.97437"
-           y="617.98328"
-           id="text3769"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan3771"
-             x="569.97437"
-             y="617.98328">18 a 29/mai</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
-           x="66.238762"
-           y="644.82727"
-           id="text4030"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan4032"
-             x="66.238762"
-             y="644.82727">curso de 20 horas</tspan></text>
-      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Andale Mono"
+         x="66.705559"
+         y="335.73941"
+         id="text3316"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3318"
+           x="66.705559"
+           y="335.73941">curso de 10 horas</tspan></text>
     </g>
   </g>
 </svg>
